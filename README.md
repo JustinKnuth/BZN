@@ -1,6 +1,6 @@
 # Project Overview
 
-## Buffer Zone News Aggregate
+## Buffer Zone News Aggregator
 
 The name of your project with deployed URL.
 

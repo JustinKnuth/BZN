@@ -32,7 +32,8 @@ https://newsapi.org/v2/everything?domains=cnn.com&foxnews.com&sortBy=publishedAt
         
 ## Wireframes
 
-Upload images of your wireframes to an image hosting site or add them to an assets folder in your repo and link them here with a description of each specific wireframe.
+https://git.generalassemb.ly/justinknuth/bzn/blob/master/assets/wireframe%20main%20page.png
+https://git.generalassemb.ly/justinknuth/bzn/blob/master/assets/wireframe%20category%20page.png
 
 ### MVP/PostMVP
 

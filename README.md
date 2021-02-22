@@ -6,7 +6,7 @@ The name of your project with deployed URL.
 
 ## Project Description
 
-BZN is a web-app that utilizes an API to feed relevent news 24/7. Left-wing and right-wing news outlets are separated by a "buffer zone". This middleground will contain relevant news from unbiased, or moderate, news sources.  
+BZN is a web-app that utilizes an API to feed relevent news 24/7. Left-wing and right-wing news outlets are separated by a "buffer zone". This middleground will contain relevant news from unbiased, or moderate, news sources. BZN is strictly American political news and American govenment news.
 
 ## API and Data Sample
 ### News API
@@ -32,25 +32,32 @@ https://newsapi.org/v2/everything?domains=cnn.com&foxnews.com&sortBy=publishedAt
         
 ## Wireframes
 
+### Main Page with limited amount of stories for each category
 https://git.generalassemb.ly/justinknuth/bzn/blob/master/assets/wireframe%20main%20page.png
+
+### A category page with relevant stories up to a certain amount. There will be 4 categories so 4 layouts of this kind.
 https://git.generalassemb.ly/justinknuth/bzn/blob/master/assets/wireframe%20category%20page.png
 
 ### MVP/PostMVP
 
-The functionality will then be divided into two separate lists: MPV and PostMVP.  Carefully decided what is placed into your MVP as the client will expect this functionality to be implemented upon project completion.  
 
 #### MVP 
-*These are examples only. Replace with your own MVP features.*
-
-- Find and use external api 
-- Render data on page 
-- Allow user to choose favorites 
+- Structure website(html) in a clean and readable fashion
+- Style website accordingly(CSS) and keep it simple but modern
+- Write scripts to add functionality and usability to the site
+- Utilize a news database on a 24 hour cycle with updates throughout the day, everyday.
+- Render news articles in three columns, representing left, moderate and right.
+- Allow users to see headlines from major news networks both bias and unbiased
+- Keep users up-to-date with everything American Politics and Government
+- Comply with copyright laws
 
 #### PostMVP  
 *These are examples only. Replace with your own Post-MVP features.*
 
-- Add second API
-- Use local storage to save user favorites
+- Add message board using 3rd party software or API
+- Match news articles together in the same row, by matching keywords in headlines
+- Page automatically updates with new articles
+- Add the option to look at other countries political news stories with the same layout
 
 ## Project Schedule
 
@@ -81,7 +88,14 @@ Time frames are also key in the development cycle.  You have limited time to cod
 | Component | Priority | Estimated Time | Time Invested | Actual Time |
 | --- | :---: |  :---: | :---: | :---: |
 | Adding Form | H | 3hrs| 3.5hrs | 3.5hrs |
-| Working with API | H | 3hrs| 2.5hrs | 2.5hrs |
+| Working with API | 3hrs | 3hrs| 2.5hrs | 2.5hrs |
+| Structuring Page | 1.5hrs | 
+| Styling Page | 2hrs |
+| Scripts for API | 3hrs | 
+| Harness Correct Data | 3hrs |
+| Display Correct Data | 3hrs |
+
+
 | Total | H | 6hrs| 5hrs | 5hrs |
 
 ## Code Snippet

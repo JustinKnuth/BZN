@@ -15,8 +15,8 @@ BZN is a web-app that utilizes an API to feed relevent political news 24/7. Left
 ### News API
 https://newsapi.org/v2/everything?domains=cnn.com&foxnews.com&sortBy=publishedAt&language=en&apiKey=90227dcd441a4362b5c3669eb2b7e229 
 
-```
 
+```
 {
     "status": "ok",
     "totalResults": 4636,
@@ -33,8 +33,9 @@ https://newsapi.org/v2/everything?domains=cnn.com&foxnews.com&sortBy=publishedAt
             "urlToImage": "https://cdn.cnn.com/cnnnext/dam/assets/210222133827-hayley-arceneaux-interview-still-super-tease.jpg",
             "publishedAt": "2021-02-22T20:19:44Z",
             "content": "Austin, Texas (CNN Business)Hayley Arceneaux, a 29-year-old cancer survivor and physician assistant at St. Jude children's hospital, got an out-of-the-blue question from her employer last month: Woul… [+7300 chars]"
-        }, 
-        ```
+        }
+```        
+        
         
 
 

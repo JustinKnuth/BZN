@@ -32,11 +32,11 @@ https://newsapi.org/v2/everything?domains=cnn.com&foxnews.com&sortBy=publishedAt
         
 ## Wireframes
 
-### Main Page with limited amount of stories for each category
+#### Main Page with limited amount of stories for each category
 https://git.generalassemb.ly/justinknuth/bzn/blob/master/assets/wireframe%20main%20page.png
 
-### A category page with relevant stories up to a certain amount. There will be 4 categories so 4 layouts of this kind.
-https://git.generalassemb.ly/justinknuth/bzn/blob/master/assets/wireframe%20category%20page.png
+#### A category page with relevant stories up to a certain amount. There will be 4 categories so 4 layouts of this kind.
+https://github.com/JustinKnuth/BZN/blob/master/assets/wireframe%20category%20page.png
 
 ### MVP/PostMVP
 

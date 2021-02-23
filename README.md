@@ -33,7 +33,8 @@ https://newsapi.org/v2/everything?domains=cnn.com&foxnews.com&sortBy=publishedAt
             "urlToImage": "https://cdn.cnn.com/cnnnext/dam/assets/210222133827-hayley-arceneaux-interview-still-super-tease.jpg",
             "publishedAt": "2021-02-22T20:19:44Z",
             "content": "Austin, Texas (CNN Business)Hayley Arceneaux, a 29-year-old cancer survivor and physician assistant at St. Jude children's hospital, got an out-of-the-blue question from her employer last month: Woul… [+7300 chars]"
-        },```
+        }, 
+        ```
         
 
 

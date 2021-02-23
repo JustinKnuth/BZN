@@ -85,8 +85,7 @@ https://github.com/JustinKnuth/BZN/blob/master/assets/wireframe%20category%20pag
 
 ## Priority Matrix
 
-https://github.com/JustinKnuth/BZN/blob/master/assets/Note%20Feb%2023%2C%202021.pdf
-
+https://github.com/JustinKnuth/BZN/blob/master/assets/Updated%20PDF%20for%20GA.pdf
 
 
 ## Timeframes

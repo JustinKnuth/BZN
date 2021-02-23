@@ -12,6 +12,8 @@ BZN is a web-app that utilizes an API to feed relevent political news 24/7. Left
 ### News API
 https://newsapi.org/v2/everything?domains=cnn.com&foxnews.com&sortBy=publishedAt&language=en&apiKey=90227dcd441a4362b5c3669eb2b7e229 
 
+```
+
 {
     "status": "ok",
     "totalResults": 4636,
@@ -28,15 +30,20 @@ https://newsapi.org/v2/everything?domains=cnn.com&foxnews.com&sortBy=publishedAt
             "urlToImage": "https://cdn.cnn.com/cnnnext/dam/assets/210222133827-hayley-arceneaux-interview-still-super-tease.jpg",
             "publishedAt": "2021-02-22T20:19:44Z",
             "content": "Austin, Texas (CNN Business)Hayley Arceneaux, a 29-year-old cancer survivor and physician assistant at St. Jude children's hospital, got an out-of-the-blue question from her employer last month: Woul… [+7300 chars]"
-        },
+        },```
         
+
+
 ## Wireframes
 
+
 #### Main Page with limited amount of stories for each category
-https://git.generalassemb.ly/justinknuth/bzn/blob/master/assets/wireframe%20main%20page.png
+https://github.com/JustinKnuth/BZN/blob/master/assets/wireframe%20main%20page.png
 
 #### A category page with relevant stories up to a certain amount. There will be 4 categories so 4 layouts of this kind.
 https://github.com/JustinKnuth/BZN/blob/master/assets/wireframe%20category%20page.png
+
+
 
 ### MVP/PostMVP
 
@@ -106,13 +113,6 @@ https://github.com/JustinKnuth/BZN/blob/master/assets/Note%20Feb%2023%2C%202021.
 
 ## Code Snippet
 
-Use this section to include a brief code snippet of functionality that you are proud of and a brief description.  
 
-```
-function reverse(string) {
-	// here is the code to reverse a string of text
-}
-```
 
 ## Change Log
- Use this section to document what changes were made and the reasoning behind those changes.  

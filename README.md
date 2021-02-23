@@ -60,7 +60,6 @@ https://github.com/JustinKnuth/BZN/blob/master/assets/wireframe%20category%20pag
 - Utilize a news database on a 24 hour cycle with updates throughout the day, everyday.
 - Render news articles in three columns, representing left, moderate and right.
 - Allow users to see headlines from major news networks both bias and unbiased
-- Keep users up-to-date with everything American Politics and Government
 - Comply with copyright laws
 
 #### PostMVP  

@@ -6,7 +6,7 @@ The name of your project with deployed URL.
 
 ## Project Description
 
-BZN is a web-app that utilizes an API to feed relevent news 24/7. Left-wing and right-wing news outlets are separated by a "buffer zone". This middleground will contain relevant news from unbiased, or moderate, news sources. BZN is strictly American political news and American govenment news.
+BZN is a web-app that utilizes an API to feed relevent political news 24/7. Left-wing and right-wing news outlets are separated by a "buffer zone". This middleground will contain relevant news from unbiased, or moderate, news sources. BZN is strictly American political news and American govenment news.
 
 ## API and Data Sample
 ### News API
@@ -52,7 +52,7 @@ https://git.generalassemb.ly/justinknuth/bzn/blob/master/assets/wireframe%20cate
 - Comply with copyright laws
 
 #### PostMVP  
-*These are examples only. Replace with your own Post-MVP features.*
+
 
 - Add message board using 3rd party software or API
 - Match news articles together in the same row, by matching keywords in headlines
@@ -61,39 +61,45 @@ https://git.generalassemb.ly/justinknuth/bzn/blob/master/assets/wireframe%20cate
 
 ## Project Schedule
 
-This schedule will be used to keep track of your progress throughout the week and align with our expectations.  
-
-You are **responsible** for scheduling time with your squad to seek approval for each deliverable by the end of the corresponding day, excluding `Saturday` and `Sunday`.
 
 |  Day | Deliverable | Status
 |---|---| ---|
-|Feb 22-23| Prompt / Wireframes / Priority Matrix / Timeframes | Incomplete
-|Feb 23| Project Approval | Incomplete
-|Feb 24| Core Application Structure (HTML, CSS, etc.) | Incomplete
-|Feb 24| Pseudocode / actual code | Incomplete
-|Feb 25| Initial Clickable Model  | Incomplete
+|Feb 22| Prompt / Wireframes / Timeframes | Complete
+|Feb 23| Project Approval / Core Structure | Incomplete
+|Feb 24| Continued Core Structure (HTML, CSS) / Pseudocode | Incomplete
+|Feb 24| Continued Pseudocode / JS Script Writing | Incomplete
+|Feb 25| Initial Clickable Model / JS Script Writing  | Incomplete
 |Feb 26| MVP | Incomplete
 |March 1| Presentations | Incomplete
 
 ## Priority Matrix
 
-Include a full list of features that have been prioritized based on the `Time and Importance` Matrix.  Link this image in a similar manner to your wireframes
+
+
+
 
 ## Timeframes
 
-Tell us how long you anticipate spending on each area of development. Be sure to consider how many hours a day you plan to be coding and how many days you have available until presentation day.
-
-Time frames are also key in the development cycle.  You have limited time to code all phases of the game.  Your estimates can then be used to evalute game possibilities based on time needed and the actual time you have before game must be submitted. It's always best to pad the time by a few hours so that you account for the unknown so add and additional hour or two to each component to play it safe. Throughout your project, keep track of your Time Invested and Actual Time and update your README regularly.
 
 | Component | Priority | Estimated Time | Time Invested | Actual Time |
 | --- | :---: |  :---: | :---: | :---: |
-| Adding Form | H | 3hrs| 3.5hrs | 3.5hrs |
-| Working with API | 3hrs | 3hrs| 2.5hrs | 2.5hrs |
-| Structuring Page | 1.5hrs | 
-| Styling Page | 2hrs |
-| Scripts for API | 3hrs | 
-| Harness Correct Data | 3hrs |
-| Display Correct Data | 3hrs |
+| Planning / Preparation  | H | 2hrs| 2hrs | 2hrs |
+| Research Similar Products | L | 2hrs |
+| Core Structure  | H | 1hr |
+| CSS Box Organization  | H | 2hrs |
+| Pseudocode  | L | 1.5hrs |
+| Scripts for API  | H | 3hrs | 
+| Retrieve Correct Data  | H | 3hrs |
+| Display Correct Data  | 3hrs |
+| Media Queries | M | 3hrs |
+| CSS Body Styling | L | 1hr |
+| Navigation Menu Creation and Style | H | 1.5hrs |
+| Create User-Friendly Experience | H | 3hrs |
+| Debugging | H | 2hrs |
+| Code Organization for Readability | H | 2hrs |
+| Testing | H | 1hr |
+
+
 
 
 | Total | H | 6hrs| 5hrs | 5hrs |

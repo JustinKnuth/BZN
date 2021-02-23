@@ -2,13 +2,16 @@
 
 ## Buffer Zone News Aggregator
 
-The name of your project with deployed URL.
+#### URL - 
 
 ## Project Description
 
 BZN is a web-app that utilizes an API to feed relevent political news 24/7. Left-wing and right-wing news outlets are separated by a "buffer zone". This middleground will contain relevant news from unbiased, or moderate, news sources. BZN is strictly American political news and American govenment news.
 
+
 ## API and Data Sample
+
+
 ### News API
 https://newsapi.org/v2/everything?domains=cnn.com&foxnews.com&sortBy=publishedAt&language=en&apiKey=90227dcd441a4362b5c3669eb2b7e229 
 

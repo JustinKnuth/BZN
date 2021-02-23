@@ -74,7 +74,7 @@ https://git.generalassemb.ly/justinknuth/bzn/blob/master/assets/wireframe%20cate
 
 ## Priority Matrix
 
-
+https://github.com/JustinKnuth/BZN/blob/master/assets/Note%20Feb%2023%2C%202021.pdf
 
 
 
@@ -102,7 +102,7 @@ https://git.generalassemb.ly/justinknuth/bzn/blob/master/assets/wireframe%20cate
 
 
 
-| Total | H | 6hrs| 5hrs | 5hrs |
+| Total | H | | | |
 
 ## Code Snippet
 

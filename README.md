@@ -76,11 +76,11 @@ https://github.com/JustinKnuth/BZN/blob/master/assets/wireframe%20category%20pag
 |  Day | Deliverable | Status
 |---|---| ---|
 |Feb 22| Prompt / Wireframes / Timeframes | Complete
-|Feb 23| Project Approval / Core Structure | Incomplete
-|Feb 24| Continued Core Structure (HTML, CSS) / Pseudocode | Incomplete
-|Feb 24| Continued Pseudocode / JS Script Writing | Incomplete
-|Feb 25| Initial Clickable Model / JS Script Writing  | Incomplete
-|Feb 26| MVP | Incomplete
+|Feb 23| Project Approval / Core Structure / HTML / Pseudocode | Incomplete
+|Feb 24| API Calls and Filtering / CSS | Incomplete
+|Feb 24| Render API Information | Incomplete
+|Feb 25| Initial Clickable Model / MVP  | Incomplete
+|Feb 26| Responsive Design / Refine CSS | Incomplete
 |March 1| Presentations | Incomplete
 
 ## Priority Matrix
@@ -101,19 +101,15 @@ https://github.com/JustinKnuth/BZN/blob/master/assets/Note%20Feb%2023%2C%202021.
 | Pseudocode  | L | 1.5hrs |
 | Scripts for API  | H | 3hrs | 
 | Retrieve Correct Data  | H | 3hrs |
-| Display Correct Data  | 3hrs |
-| Media Queries | M | 3hrs |
-| CSS Body Styling | L | 1hr |
-| Navigation Menu Creation and Style | H | 1.5hrs |
+| Display Correct Data | H | 3hrs |
+| Media Queries | H | 3hrs |
+| CSS Body Styling | L | 2hrs |
+| Navigation Menu Creation and Style | H | 2.5hrs |
 | Create User-Friendly Experience | H | 3hrs |
 | Debugging | H | 2hrs |
 | Code Organization for Readability | H | 2hrs |
-| Testing | H | 1hr |
-
-
-
-
-| Total | H | | | |
+| Image-Sizing | H | 2hrs |
+| Total | H | 34hrs | | |
 
 ## Code Snippet
 

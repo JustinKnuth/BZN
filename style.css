@@ -1,3 +1,8 @@
+img {
+  height: 100%;
+  width: 100%;
+  object-fit: contain;
+}
 
 
 
@@ -25,8 +30,18 @@
 
 
 
-
-
+#left-potus {
+  height: 100px;
+  width:100px;
+}
+#mid-potus {
+  height: 100px;
+  width:100px;
+}
+#right-potus {
+  height: 100px;
+  width:100px;
+}
 
 
 
@@ -58,3 +73,24 @@ justify-content: space-around;
 flex-direction: row;
   margin-top: 50px;
 }
+
+#content-house {
+  display: flex;
+  justify-content: space-around;
+  flex-direction: row;
+    margin-top: 50px;
+  }
+
+  #content-senate {
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+      margin-top: 50px;
+    }
+
+    #content-scotus {
+      display: flex;
+      justify-content: space-around;
+      flex-direction: row;
+        margin-top: 50px;
+      }

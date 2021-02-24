@@ -1,0 +1,60 @@
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.category-main{
+  text-align: center;
+}
+.left {
+  display: inline-block;
+
+}
+.mid {
+  display: inline-block;
+  justify-content:cen;
+}
+.right {
+  display: inline-block;
+  float: right;
+}
+
+
+
+
+
+#content-potus {
+display: flex;
+justify-content: space-around;
+flex-direction: row;
+  margin-top: 50px;
+}

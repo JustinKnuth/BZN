@@ -1,19 +1,33 @@
 header {
   color: white;
   background-color: black ;
+  font-family: 'Prata', serif;
+  padding: 20px 20px;
 }
-img {
-  height: 150px;
-  width: 200px;
-  box-shadow: 5px 5px 8px #888888;
-  border-radius: 5%;
-}
+
 div h2{
   margin-top: 100px;
+  font-family: 'Prata', serif;
 }
 p {
   width: 200px;
+  font-family: 'Prata', serif;
 }
+h1 {
+  font-family: 'Prata', serif;
+
+}
+
+
+.seals{
+  height: 100px;
+  width: 100px;
+  
+}
+
+
+
+
 
 
 
@@ -42,13 +56,26 @@ p {
 
 
 #left-potus {
-  
+  text-decoration: underline;
+  text-decoration-color: blue;
 }
 #mid-potus {
-  
+  text-decoration: underline;
+  text-decoration-color:purple;
 }
 #right-potus {
-  
+  text-decoration: underline;
+  text-decoration-color:red;
+}
+
+#left-potus a {
+  color: blue;
+}
+#mid-potus a {
+  color: purple
+}
+#right-potus a {
+  color: red;
 }
 
 
@@ -57,6 +84,38 @@ p {
 
 .category-main{
   text-align: center;
+  font-family: 'Prata', serif;
+  margin-top: 50px;
+
+}
+
+
+#content-potus img {
+  height: 150px;
+  width: 200px;
+  box-shadow: 5px 5px 8px #888888;
+  border-radius: 5%;
+}
+
+#content-house img {
+  height: 150px;
+  width: 200px;
+  box-shadow: 5px 5px 8px #888888;
+  border-radius: 5%;
+}
+
+#content-senate img {
+  height: 150px;
+  width: 200px;
+  box-shadow: 5px 5px 8px #888888;
+  border-radius: 5%;
+}
+
+#content-scotus img {
+  height: 150px;
+  width: 200px;
+  box-shadow: 5px 5px 8px #888888;
+  border-radius: 5%;
 }
 
 

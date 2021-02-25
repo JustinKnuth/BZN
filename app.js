@@ -21,7 +21,7 @@ const rightScotusURL = 'https://newsapi.org/v2/everything?qInTitle=supreme-court
 const fetchNews = async () => {
   const cors = 'http://cors-anywhere.herokuapp.com/'
   try {
-    // let leftPotus = await axios.get(`${cors}${leftPotusURL}`);
+     let leftPotus = await axios.get(`${cors}${leftPotusURL}`);
     let midPotus = await axios.get(`${cors}${midPotusURL}`);
     let rightPotus = await axios.get(`${cors}${rightPotusURL}`);
     // let leftHouse = await axios.get(`${cors}${leftHouseURL}`);
@@ -34,25 +34,31 @@ const fetchNews = async () => {
     // let midScotus = await axios.get(`${cors}${midScotusURL}`);
     // let rightScotus = await axios.get(`${cors}${rightScotusURL}`);
     
-    // leftPotus.data.articles.forEach((article) => {
-    //   const leftPotusSec = document.querySelector("#left-potus")
+    leftPotus.data.articles.forEach((article) => {
+      const leftPotusSec = document.querySelector("#left-potus")
+      for (let i = 0; i < 10; i++) {
       
-    //   const rightPotusSec = document.querySelector('#right-potus')
+        const h2 = document.createElement('h2')
+        const p = document.createElement('p')
+        const img = document.createElement('img')
+        img.src = article[i].urlToImage
+        let network = article[i].source.name
+        let title = article[i].title
+        h2.textContent = network
+        p.textContent = title
+        leftPotusSec.append(h2)
+        leftPotusSec.append(img)
+        leftPotusSec.append(p)
+      }
+      
+      // const rightPotusSec = document.querySelector('#right-potus')
 
-    //   const h2 = document.createElement('h2')
-    //   const p = document.createElement('p')
-    //   const img = document.createElement('img')
-    //   img.src = article.urlToImage
-    //   let network = article.source.name
-    //   let title = article.title
-    //   h2.textContent = network
-    //   p.textContent = title
-    //   leftPotusSec.append(h2)
-    //   leftPotusSec.append(p)
-    //   leftPotusSec.append(img)
+      })
+
+      
       
 
-    // })
+    
     midPotus.data.articles.forEach((article) => {
       const midPotusSec = document.querySelector('#mid-potus')
 
@@ -65,26 +71,30 @@ const fetchNews = async () => {
       h2.textContent = network
       p.textContent = title
       midPotusSec.append(h2)
-      midPotusSec.append(p)
       midPotusSec.append(img)
+      midPotusSec.append(p)
+     
 
+      
+          
 
     })
     
     rightPotus.data.articles.forEach((article) => {
-      const midPotusSec = document.querySelector('#right-potus')
+      const rightPotusSec = document.querySelector('#right-potus')
 
       const h2 = document.createElement('h2')
       const p = document.createElement('p')
       const img = document.createElement('img')
-     img.src = article.urlToImage
+      img.src = article.urlToImage
       let network = article.source.name
       let title = article.title
       h2.textContent = network
       p.textContent = title
-      midPotusSec.append(h2)
-      midPotusSec.append(p)
-      midPotusSec.append(img)
+      rightPotusSec.append(h2)
+      rightPotusSec.append(img)
+      rightPotusSec.append(p)
+      
 
 
       })

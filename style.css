@@ -1,7 +1,18 @@
+header {
+  color: white;
+  background-color: black ;
+}
 img {
-  height: 100%;
-  width: 100%;
-  object-fit: contain;
+  height: 150px;
+  width: 200px;
+  box-shadow: 5px 5px 8px #888888;
+  border-radius: 5%;
+}
+div h2{
+  margin-top: 100px;
+}
+p {
+  width: 200px;
 }
 
 
@@ -31,16 +42,13 @@ img {
 
 
 #left-potus {
-  height: 100px;
-  width:100px;
+  
 }
 #mid-potus {
-  height: 100px;
-  width:100px;
+  
 }
 #right-potus {
-  height: 100px;
-  width:100px;
+  
 }
 
 
@@ -50,18 +58,7 @@ img {
 .category-main{
   text-align: center;
 }
-.left {
-  display: inline-block;
 
-}
-.mid {
-  display: inline-block;
-  justify-content:cen;
-}
-.right {
-  display: inline-block;
-  float: right;
-}
 
 
 
@@ -72,6 +69,7 @@ display: flex;
 justify-content: space-around;
 flex-direction: row;
   margin-top: 50px;
+text-align: center;  
 }
 
 #content-house {

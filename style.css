@@ -24,9 +24,7 @@ h1 {
   width: 100px;
   
 }
-body {
-  
-}
+
 
 
 
@@ -78,6 +76,75 @@ body {
   color: purple
 }
 #right-potus a {
+  color: red;
+}
+
+#left-house {
+  text-decoration: underline;
+  text-decoration-color: blue;
+}
+#mid-house {
+  text-decoration: underline;
+  text-decoration-color:purple;
+}
+#right-house {
+  text-decoration: underline;
+  text-decoration-color:red;
+}
+
+#left-house a {
+  color: blue;
+}
+#mid-house a {
+  color: purple
+}
+#right-house a {
+  color: red;
+}
+
+#left-senate {
+  text-decoration: underline;
+  text-decoration-color: blue;
+}
+#mid-senate {
+  text-decoration: underline;
+  text-decoration-color:purple;
+}
+#right-senate {
+  text-decoration: underline;
+  text-decoration-color:red;
+}
+
+#left-senate a {
+  color: blue;
+}
+#mid-senate a {
+  color: purple
+}
+#right-senate a {
+  color: red;
+}
+
+#left-scotus {
+  text-decoration: underline;
+  text-decoration-color: blue;
+}
+#mid-scotus {
+  text-decoration: underline;
+  text-decoration-color:purple;
+}
+#right-scotus {
+  text-decoration: underline;
+  text-decoration-color:red;
+}
+
+#left-scotus a {
+  color: blue;
+}
+#mid-scotus a {
+  color: purple
+}
+#right-scotus a {
   color: red;
 }
 

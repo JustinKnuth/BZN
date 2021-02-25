@@ -2,18 +2,18 @@
 
 // Main variables and endpoints here.
 
-const leftPotusURL = 'https://newsapi.org/v2/everything?qInTitle=Biden&domains=cnn.com,nbcnews.com&sortBy=publishedAt&language=en&apiKey=90227dcd441a4362b5c3669eb2b7e229'
-const midPotusURL = 'https://newsapi.org/v2/everything?qInTitle=Biden&domains=apnews.com,pbs.org,npr.org&sortBy=publishedAt&language=en&apiKey=90227dcd441a4362b5c3669eb2b7e229'
-const rightPotusURL = 'https://newsapi.org/v2/everything?qInTitle=Biden&domains=nypost.com,foxnews.com&sortBy=publishedAt&language=en&apiKey=90227dcd441a4362b5c3669eb2b7e229'
-const leftHouseURL = 'https://newsapi.org/v2/everything?qInTitle=congress&domains=cnn.com,nbcnews.com&sortBy=publishedAt&language=en&apiKey=90227dcd441a4362b5c3669eb2b7e229'
-const midHouseURL = 'https://newsapi.org/v2/everything?qInTitle=congress&domains=apnews.com,pbs.org,npr.org&sortBy=publishedAt&language=en&apiKey=90227dcd441a4362b5c3669eb2b7e229'
-const rightHouseURL = 'https://newsapi.org/v2/everything?qInTitle=congress&domains=nypost.com,foxnews.com&sortBy=publishedAt&language=en&apiKey=90227dcd441a4362b5c3669eb2b7e229'
-const leftSenateURL = 'https://newsapi.org/v2/everything?qInTitle=senate&domains=cnn.com,nbcnews.com&sortBy=publishedAt&language=en&apiKey=90227dcd441a4362b5c3669eb2b7e229'
-const midSenateURL = 'https://newsapi.org/v2/everything?qInTitle=senate&domains=apnews.com,pbs.org,npr.org&sortBy=publishedAt&language=en&apiKey=90227dcd441a4362b5c3669eb2b7e229'
-const rightSenateURL = 'https://newsapi.org/v2/everything?qInTitle=senate&domains=foxnews.com,nypost.com&sortBy=publishedAt&language=en&apiKey=90227dcd441a4362b5c3669eb2b7e229'
-const leftScotusURL = 'https://newsapi.org/v2/everything?qInTitle=supreme-court&domains=cnn.com,nbcnews.com&sortBy=publishedAt&language=en&apiKey=90227dcd441a4362b5c3669eb2b7e229'
-const midScotusURL = 'https://newsapi.org/v2/everything?qInTitle=supreme-court&domains=apnews.com,pbs.org,npr.org&sortBy=publishedAt&language=en&apiKey=90227dcd441a4362b5c3669eb2b7e229'
-const rightScotusURL = 'https://newsapi.org/v2/everything?qInTitle=supreme-court&domains=foxnews.com,nypost.com&sortBy=publishedAt&language=en&apiKey=90227dcd441a4362b5c3669eb2b7e229'
+const leftPotusURL = 'https://newsapi.org/v2/everything?qInTitle=Biden&domains=cnn.com,nbcnews.com&sortBy=publishedAt&language=en&apiKey=95a83d20ba6a4d7e8466a1e9fc57b3d2'
+const midPotusURL = 'https://newsapi.org/v2/everything?qInTitle=Biden&domains=apnews.com,pbs.org,npr.org&sortBy=publishedAt&language=en&apiKey=95a83d20ba6a4d7e8466a1e9fc57b3d2'
+const rightPotusURL = 'https://newsapi.org/v2/everything?qInTitle=Biden&domains=nypost.com,foxnews.com&sortBy=publishedAt&language=en&apiKey=95a83d20ba6a4d7e8466a1e9fc57b3d2'
+const leftHouseURL = 'https://newsapi.org/v2/everything?qInTitle=congress&domains=cnn.com,nbcnews.com&sortBy=publishedAt&language=en&apiKey=95a83d20ba6a4d7e8466a1e9fc57b3d2'
+const midHouseURL = 'https://newsapi.org/v2/everything?qInTitle=congress&domains=apnews.com,pbs.org,npr.org&sortBy=publishedAt&language=en&apiKey=95a83d20ba6a4d7e8466a1e9fc57b3d2'
+const rightHouseURL = 'https://newsapi.org/v2/everything?qInTitle=congress&domains=nypost.com,foxnews.com&sortBy=publishedAt&language=en&apiKey=95a83d20ba6a4d7e8466a1e9fc57b3d2'
+const leftSenateURL = 'https://newsapi.org/v2/everything?qInTitle=senate&domains=cnn.com,nbcnews.com&sortBy=publishedAt&language=en&apiKey=95a83d20ba6a4d7e8466a1e9fc57b3d2'
+const midSenateURL = 'https://newsapi.org/v2/everything?qInTitle=senate&domains=apnews.com,pbs.org,npr.org&sortBy=publishedAt&language=en&apiKey=95a83d20ba6a4d7e8466a1e9fc57b3d2'
+const rightSenateURL = 'https://newsapi.org/v2/everything?qInTitle=senate&domains=foxnews.com,nypost.com&sortBy=publishedAt&language=en&apiKey=95a83d20ba6a4d7e8466a1e9fc57b3d2'
+const leftScotusURL = 'https://newsapi.org/v2/everything?qInTitle=supreme-court&domains=cnn.com,nbcnews.com&sortBy=publishedAt&language=en&apiKey=95a83d20ba6a4d7e8466a1e9fc57b3d2'
+const midScotusURL = 'https://newsapi.org/v2/everything?qInTitle=supreme-court&domains=apnews.com,pbs.org,npr.org&sortBy=publishedAt&language=en&apiKey=95a83d20ba6a4d7e8466a1e9fc57b3d2'
+const rightScotusURL = 'https://newsapi.org/v2/everything?qInTitle=supreme-court&domains=foxnews.com,nypost.com&sortBy=publishedAt&language=en&apiKey=95a83d20ba6a4d7e8466a1e9fc57b3d2'
 
 
 
@@ -37,6 +37,7 @@ const fetchNews = async () => {
     let midScotus = await axios.get(`${cors}${midScotusURL}`);
     let rightScotus = await axios.get(`${cors}${rightScotusURL}`);
     potusData()
+    congressData()
 
     for (let i = 0; i < 5; i++){
       const leftPotusSec = document.querySelector("#left-potus")
@@ -409,7 +410,137 @@ async function potusData() {
   }
   catch (err) {
     console.log(err)
-}}
+  }
+}
+
+async function congressData() {
+  const cors = 'http://cors-anywhere.herokuapp.com/'
+ 
+  let leftHouse = await axios.get(`${cors}${leftHouseURL}`);
+    let midHouse = await axios.get(`${cors}${midHouseURL}`);
+    let rightHouse = await axios.get(`${cors}${rightHouseURL}`);
+    let leftSenate = await axios.get(`${cors}${leftSenateURL}`);
+    let midSenate = await axios.get(`${cors}${midSenateURL}`);
+    let rightSenate = await axios.get(`${cors}${rightSenateURL}`);
+  try {
+    for (let i = 0; i < 10; i++) {
+      const leftHouseSec = document.querySelector("#left-house")
+      let left = leftHouse.data.articles
+
+   
+      const h2 = document.createElement('h2')
+      const p = document.createElement('p')
+      const img = document.createElement('img')
+      img.src = left[i].urlToImage
+      let network = left[i].source.name
+      let title = left[i].title
+      h2.textContent = network
+      p.textContent = title
+      leftHouseSec.append(h2)
+      leftHouseSec.append(img)
+      leftHouseSec.append(p)
+    
+    }
+
+    for (let i = 0; i < 10; i++) {
+      const midHouseSec = document.querySelector("#mid-house")
+      let mid = midHouse.data.articles
+
+   
+      const h2 = document.createElement('h2')
+      const p = document.createElement('p')
+      const img = document.createElement('img')
+      img.src = mid[i].urlToImage
+      let network = mid[i].source.name
+      let title = mid[i].title
+      h2.textContent = network
+      p.textContent = title
+      midHouseSec.append(h2)
+      midHouseSec.append(img)
+      midHouseSec.append(p)
+    
+    }
+
+    for (let i = 0; i < 10; i++) {
+      const rightHouseSec = document.querySelector("#right-house")
+      let right = rightHouse.data.articles
+
+   
+      const h2 = document.createElement('h2')
+      const p = document.createElement('p')
+      const img = document.createElement('img')
+      img.src = right[i].urlToImage
+      let network = right[i].source.name
+      let title = right[i].title
+      h2.textContent = network
+      p.textContent = title
+      rightHouseSec.append(h2)
+      rightHouseSec.append(img)
+      rightHouseSec.append(p)
+  
+    }
+
+    for (let i = 0; i < 10; i++) {
+      const leftSenateSec = document.querySelector("#left-senate")
+      let left = leftSenate.data.articles
+
+   
+      const h2 = document.createElement('h2')
+      const p = document.createElement('p')
+      const img = document.createElement('img')
+      img.src = left[i].urlToImage
+      let network = left[i].source.name
+      let title = left[i].title
+      h2.textContent = network
+      p.textContent = title
+      leftSenateSec.append(h2)
+      leftSenateSec.append(img)
+      leftSenateSec.append(p)
+    
+    }
+
+    for (let i = 0; i < 10; i++) {
+      const midSenateSec = document.querySelector("#mid-senate")
+      let mid = midSenate.data.articles
+
+   
+      const h2 = document.createElement('h2')
+      const p = document.createElement('p')
+      const img = document.createElement('img')
+      img.src = mid[i].urlToImage
+      let network = mid[i].source.name
+      let title = mid[i].title
+      h2.textContent = network
+      p.textContent = title
+      midSenateSec.append(h2)
+      midSenateSec.append(img)
+      midSenateSec.append(p)
+    
+    }
+
+    for (let i = 0; i < 10; i++) {
+      const rightSenateSec = document.querySelector("#right-senate")
+      let right = rightSenate.data.articles
+
+   
+      const h2 = document.createElement('h2')
+      const p = document.createElement('p')
+      const img = document.createElement('img')
+      img.src = right[i].urlToImage
+      let network = right[i].source.name
+      let title = right[i].title
+      h2.textContent = network
+      p.textContent = title
+      rightSenateSec.append(h2)
+      rightSenateSec.append(img)
+      rightSenateSec.append(p)
+    }
+  }
+  catch (err) {
+    console.log(err)
+  }
+}
+
 
 
 fetchNews()

@@ -12,9 +12,11 @@ div h2{
 p {
   width: 200px;
   font-family: 'Prata', serif;
+  text-align: center;
 }
 h1 {
   font-family: 'Prata', serif;
+
 
 }
 
@@ -22,6 +24,7 @@ h1 {
 .seals{
   height: 100px;
   width: 100px;
+  text-align: center;
   
 }
 
@@ -58,11 +61,11 @@ h1 {
 
 #left-potus {
   text-decoration: underline;
-  text-decoration-color: blue;
+  text-decoration-color: #0015BC;
 }
 #mid-potus {
   text-decoration: underline;
-  text-decoration-color:purple;
+  text-decoration-color:#53239c;
 }
 #right-potus {
   text-decoration: underline;
@@ -70,10 +73,10 @@ h1 {
 }
 
 #left-potus a {
-  color: blue;
+  color: #0015BC;
 }
 #mid-potus a {
-  color: purple
+  color: #53239c;
 }
 #right-potus a {
   color: red;
@@ -81,11 +84,11 @@ h1 {
 
 #left-house {
   text-decoration: underline;
-  text-decoration-color: blue;
+  text-decoration-color: #0015BC;
 }
 #mid-house {
   text-decoration: underline;
-  text-decoration-color:purple;
+  text-decoration-color:#53239c;
 }
 #right-house {
   text-decoration: underline;
@@ -93,10 +96,10 @@ h1 {
 }
 
 #left-house a {
-  color: blue;
+  color: #0015BC;
 }
 #mid-house a {
-  color: purple
+  color: #53239c;
 }
 #right-house a {
   color: red;
@@ -104,11 +107,11 @@ h1 {
 
 #left-senate {
   text-decoration: underline;
-  text-decoration-color: blue;
+  text-decoration-color: #0015BC;
 }
 #mid-senate {
   text-decoration: underline;
-  text-decoration-color:purple;
+  text-decoration-color:#53239c;
 }
 #right-senate {
   text-decoration: underline;
@@ -116,10 +119,10 @@ h1 {
 }
 
 #left-senate a {
-  color: blue;
+  color: #0015BC;
 }
 #mid-senate a {
-  color: purple
+  color: #53239c;
 }
 #right-senate a {
   color: red;
@@ -127,11 +130,11 @@ h1 {
 
 #left-scotus {
   text-decoration: underline;
-  text-decoration-color: blue;
+  text-decoration-color: #0015BC;
 }
 #mid-scotus {
   text-decoration: underline;
-  text-decoration-color:purple;
+  text-decoration-color:#53239c;
 }
 #right-scotus {
   text-decoration: underline;
@@ -139,10 +142,10 @@ h1 {
 }
 
 #left-scotus a {
-  color: blue;
+  color: #0015BC;
 }
 #mid-scotus a {
-  color: purple
+  color: #53239c;
 }
 #right-scotus a {
   color: red;

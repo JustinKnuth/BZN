@@ -16,48 +16,30 @@ p {
 }
 h1 {
   font-family: 'Prata', serif;
-
-
 }
 
+
+
+/* CLASSES */
 
 .seals{
   height: 100px;
   width: 100px;
-  text-align: center;
   
 }
 
+.category-main{
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  font-family: 'Prata', serif;
+  margin-top: 50px;
+}  
 
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+/* ID's */
 
 #left-potus {
   text-decoration: underline;
@@ -155,12 +137,6 @@ h1 {
 
 
 
-.category-main{
-  text-align: center;
-  font-family: 'Prata', serif;
-  margin-top: 50px;
-
-}
 
 
 #content-potus img {

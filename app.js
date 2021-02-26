@@ -2,18 +2,18 @@
 
 // Main variables and endpoints here.
 
-const leftPotusURL = 'https://newsapi.org/v2/everything?qInTitle=Biden&domains=cnn.com,nbcnews.com,washingtonpost.com,nytimes.com&sortBy=publishedAt&language=en&apiKey=000cb07e70e54afda050fe51fd532b10'
-const midPotusURL = 'https://newsapi.org/v2/everything?qInTitle=Biden&domains=apnews.com,pbs.org,npr.org&sortBy=publishedAt&language=en&apiKey=000cb07e70e54afda050fe51fd532b10'
-const rightPotusURL = 'https://newsapi.org/v2/everything?qInTitle=Biden&domains=nypost.com,foxnews.com&sortBy=publishedAt&language=en&apiKey=000cb07e70e54afda050fe51fd532b10'
-const leftHouseURL = 'https://newsapi.org/v2/everything?qInTitle=congress&domains=cnn.com,nbcnews.com,washingtonpost.com,nytimes.com&sortBy=publishedAt&language=en&apiKey=000cb07e70e54afda050fe51fd532b10'
-const midHouseURL = 'https://newsapi.org/v2/everything?qInTitle=congress&domains=apnews.com,pbs.org,npr.org&sortBy=publishedAt&language=en&apiKey=000cb07e70e54afda050fe51fd532b10'
-const rightHouseURL = 'https://newsapi.org/v2/everything?qInTitle=congress&domains=nypost.com,foxnews.com&sortBy=publishedAt&language=en&apiKey=000cb07e70e54afda050fe51fd532b10'
-const leftSenateURL = 'https://newsapi.org/v2/everything?qInTitle=senate&domains=cnn.com,nbcnews.com,washingtonpost.com,nytimes.com&sortBy=publishedAt&language=en&apiKey=000cb07e70e54afda050fe51fd532b10'
-const midSenateURL = 'https://newsapi.org/v2/everything?qInTitle=senate&domains=apnews.com,pbs.org,npr.org&sortBy=publishedAt&language=en&apiKey=000cb07e70e54afda050fe51fd532b10'
-const rightSenateURL = 'https://newsapi.org/v2/everything?qInTitle=senate&domains=foxnews.com,nypost.com&sortBy=publishedAt&language=en&apiKey=000cb07e70e54afda050fe51fd532b10'
-const leftScotusURL = 'https://newsapi.org/v2/everything?qInTitle=supreme-court&domains=cnn.com,nbcnews.com,washingtonpost.com,nytimes.com&sortBy=publishedAt&language=en&apiKey=000cb07e70e54afda050fe51fd532b10'
-const midScotusURL = 'https://newsapi.org/v2/everything?qInTitle=supreme-court&domains=apnews.com,pbs.org,npr.org&sortBy=publishedAt&language=en&apiKey=000cb07e70e54afda050fe51fd532b10'
-const rightScotusURL = 'https://newsapi.org/v2/everything?qInTitle=supreme-court&domains=foxnews.com,nypost.com&sortBy=publishedAt&language=en&apiKey=000cb07e70e54afda050fe51fd532b10'
+const leftPotusURL = 'https://newsapi.org/v2/everything?qInTitle=Biden&domains=cnn.com,nbcnews.com,washingtonpost.com,nytimes.com&sortBy=publishedAt&language=en&apiKey=95a83d20ba6a4d7e8466a1e9fc57b3d2'
+const midPotusURL = 'https://newsapi.org/v2/everything?qInTitle=Biden&domains=apnews.com,pbs.org,npr.org&sortBy=publishedAt&language=en&apiKey=95a83d20ba6a4d7e8466a1e9fc57b3d2'
+const rightPotusURL = 'https://newsapi.org/v2/everything?qInTitle=Biden&domains=nypost.com,foxnews.com&sortBy=publishedAt&language=en&apiKey=95a83d20ba6a4d7e8466a1e9fc57b3d2'
+const leftHouseURL = 'https://newsapi.org/v2/everything?qInTitle=congress&domains=cnn.com,nbcnews.com,washingtonpost.com,nytimes.com&sortBy=publishedAt&language=en&apiKey=95a83d20ba6a4d7e8466a1e9fc57b3d2'
+const midHouseURL = 'https://newsapi.org/v2/everything?qInTitle=congress&domains=apnews.com,pbs.org,npr.org&sortBy=publishedAt&language=en&apiKey=95a83d20ba6a4d7e8466a1e9fc57b3d2'
+const rightHouseURL = 'https://newsapi.org/v2/everything?qInTitle=congress&domains=nypost.com,foxnews.com&sortBy=publishedAt&language=en&apiKey=95a83d20ba6a4d7e8466a1e9fc57b3d2'
+const leftSenateURL = 'https://newsapi.org/v2/everything?qInTitle=senate&domains=cnn.com,nbcnews.com,washingtonpost.com,nytimes.com&sortBy=publishedAt&language=en&apiKey=95a83d20ba6a4d7e8466a1e9fc57b3d2'
+const midSenateURL = 'https://newsapi.org/v2/everything?qInTitle=senate&domains=apnews.com,pbs.org,npr.org&sortBy=publishedAt&language=en&apiKey=95a83d20ba6a4d7e8466a1e9fc57b3d2'
+const rightSenateURL = 'https://newsapi.org/v2/everything?qInTitle=senate&domains=foxnews.com,nypost.com&sortBy=publishedAt&language=en&apiKey=95a83d20ba6a4d7e8466a1e9fc57b3d2'
+const leftScotusURL = 'https://newsapi.org/v2/everything?qInTitle=supreme-court&domains=cnn.com,nbcnews.com,washingtonpost.com,nytimes.com&sortBy=publishedAt&language=en&apiKey=95a83d20ba6a4d7e8466a1e9fc57b3d2'
+const midScotusURL = 'https://newsapi.org/v2/everything?qInTitle=supreme-court&domains=apnews.com,pbs.org,npr.org&sortBy=publishedAt&language=en&apiKey=95a83d20ba6a4d7e8466a1e9fc57b3d2'
+const rightScotusURL = 'https://newsapi.org/v2/everything?qInTitle=supreme-court&domains=foxnews.com,nypost.com&sortBy=publishedAt&language=en&apiKey=95a83d20ba6a4d7e8466a1e9fc57b3d2'
 
 
 

@@ -42,62 +42,50 @@ const fetchNews = async () => {
     for (let i = 0; i < 5; i++){
       const leftPotusSec = document.querySelector("#left-potus")
       let left = leftPotus.data.articles
-
-       
       const h2 = document.createElement('h2')
       const p = document.createElement('p')
       const img = document.createElement('img')
       const a = document.createElement('a')
       const article = document.createElement('article')
-         img.src = left[i].urlToImage
-         let network = left[i].source.name
+      img.src = left[i].urlToImage
+      let network = left[i].source.name
       let title = left[i].title
       a.href = left[i].url
       a.textContent = "Click here to read the full article"
       a.target = "_blank"
-      
       h2.textContent = network
-
       p.textContent = title
-        article.append(h2)
-         article.append(img)
+      article.append(h2)
+      article.append(img)
       article.append(p)
-      
       article.append(a)
       leftPotusSec.append(article)
-      
-     
       a.textContent = "Click here to read the full article"
       a.target = "_blank"
-      
-        //  h2.textContent = network
       p.textContent = title
-        //  article.append(h2)
-        
-    }
+        }
+       
+      
     
       
     for (let i = 0; i < 5; i++){
       const midPotusSec = document.querySelector("#mid-potus")
       let mid = midPotus.data.articles
-
-       
-         const h2 = document.createElement('h2')
-         const p = document.createElement('p')
+      const h2 = document.createElement('h2')
+      const p = document.createElement('p')
       const img = document.createElement('img')
       const a = document.createElement('a')
       const article = document.createElement('article')
-
-         img.src = mid[i].urlToImage
-         let network = mid[i].source.name
+      img.src = mid[i].urlToImage
+      let network = mid[i].source.name
       let title = mid[i].title
       a.href = mid[i].url
       h2.textContent = network
       a.textContent = "Click here to read the full article"
-     a.target = "_blank"
+      a.target = "_blank"
       p.textContent = title
       article.append(h2)
-         article.append(img)
+      article.append(img)
       article.append(p)
       article.append(a)
       midPotusSec.append(article)
@@ -107,24 +95,21 @@ const fetchNews = async () => {
     for (let i = 0; i < 5; i++){
       const rightPotusSec = document.querySelector("#right-potus")
       let right = rightPotus.data.articles
-
-       
-         const h2 = document.createElement('h2')
-         const p = document.createElement('p')
+      const h2 = document.createElement('h2')
+      const p = document.createElement('p')
       const img = document.createElement('img')
       const a = document.createElement('a')
       const article = document.createElement('article')
-
-         img.src = right[i].urlToImage
-         let network = right[i].source.name
+      img.src = right[i].urlToImage
+      let network = right[i].source.name
       let title = right[i].title
       a.href = right[i].url
       a.textContent = "Click here to read the full article"
-     a.target = "_blank"
-         h2.textContent = network
-         p.textContent = title
-         article.append(h2)
-         article.append(img)
+      a.target = "_blank"
+      h2.textContent = network
+      p.textContent = title
+      article.append(h2)
+      article.append(img)
       article.append(p)
       article.append(a)
       rightPotusSec.append(article)
@@ -134,24 +119,21 @@ const fetchNews = async () => {
     for (let i = 0; i < 5; i++){
       const leftHouseSec = document.querySelector("#left-house")
       let left = leftHouse.data.articles
-
-       
-         const h2 = document.createElement('h2')
-         const p = document.createElement('p')
+      const h2 = document.createElement('h2')
+      const p = document.createElement('p')
       const img = document.createElement('img')
       const a = document.createElement('a')
       const article = document.createElement('article')
-
-         img.src = left[i].urlToImage
-         let network = left[i].source.name
+      img.src = left[i].urlToImage
+      let network = left[i].source.name
       let title = left[i].title
       a.href = left[i].url
       a.textContent = "Click here to read the full article"
-     a.target = "_blank"
-         h2.textContent = network
-         p.textContent = title
-         article.append(h2)
-         article.append(img)
+      a.target = "_blank"
+      h2.textContent = network
+      p.textContent = title
+      article.append(h2)
+      article.append(img)
       article.append(p)
       article.append(a)
       leftHouseSec.append(article)
@@ -161,24 +143,21 @@ const fetchNews = async () => {
     for (let i = 0; i < 5; i++){
       const midHouseSec = document.querySelector("#mid-house")
       let mid = midHouse.data.articles
-
-       
-         const h2 = document.createElement('h2')
-         const p = document.createElement('p')
+      const h2 = document.createElement('h2')
+      const p = document.createElement('p')
       const img = document.createElement('img')
       const a = document.createElement('a')
       const article = document.createElement('article')
-
-         img.src = mid[i].urlToImage
-         let network = mid[i].source.name
+      img.src = mid[i].urlToImage
+      let network = mid[i].source.name
       let title = mid[i].title
       a.href = mid[i].url
       a.textContent = "Click here to read the full article"
-     a.target = "_blank"
-         h2.textContent = network
-         p.textContent = title
-         article.append(h2)
-         article.append(img)
+      a.target = "_blank"
+      h2.textContent = network
+      p.textContent = title
+      article.append(h2)
+      article.append(img)
       article.append(p)
       article.append(a)
       midHouseSec.append(article)
@@ -189,24 +168,21 @@ const fetchNews = async () => {
     for (let i = 0; i < 5; i++){
       const rightHouseSec = document.querySelector("#right-house")
       let right = rightHouse.data.articles
-
-       
-         const h2 = document.createElement('h2')
-         const p = document.createElement('p')
+      const h2 = document.createElement('h2')
+      const p = document.createElement('p')
       const img = document.createElement('img')
       const a = document.createElement('a')
       const article = document.createElement('article')
-
-         img.src = right[i].urlToImage
-         let network = right[i].source.name
+      img.src = right[i].urlToImage
+      let network = right[i].source.name
       let title = right[i].title
       a.href = right[i].url
       a.textContent = "Click here to read the full article"
-     a.target = "_blank"
-         h2.textContent = network
-         p.textContent = title
-         article.append(h2)
-         article.append(img)
+      a.target = "_blank"
+      h2.textContent = network
+      p.textContent = title
+      article.append(h2)
+      article.append(img)
       article.append(p)
       article.append(a)
       rightHouseSec.append(article)
@@ -216,24 +192,21 @@ const fetchNews = async () => {
     for (let i = 0; i < 5; i++){
       const leftSenateSec = document.querySelector("#left-senate")
       let left = leftSenate.data.articles
-
-       
-        const h2 = document.createElement('h2')
-        const p = document.createElement('p')
-        const img = document.createElement('img')
+      const h2 = document.createElement('h2')
+      const p = document.createElement('p')
+      const img = document.createElement('img')
       const a = document.createElement('a')
       const article = document.createElement('article')
-
-        a.href = left[i].url
-        img.src = left[i].urlToImage
-        let network = left[i].source.name
-        let title = left[i].title
-        a.textContent = "Click here to read the full article"
-        a.target = "_blank"
-        h2.textContent = network
-        p.textContent = title
-        article.append(h2)
-         article.append(img)
+      a.href = left[i].url
+      img.src = left[i].urlToImage
+      let network = left[i].source.name
+      let title = left[i].title
+      a.textContent = "Click here to read the full article"
+      a.target = "_blank"
+      h2.textContent = network
+      p.textContent = title
+      article.append(h2)
+      article.append(img)
       article.append(p)
       article.append(a)
       leftSenateSec.append(article)
@@ -243,24 +216,21 @@ const fetchNews = async () => {
     for (let i = 0; i < 5; i++){
       const midSenateSec = document.querySelector("#mid-senate")
       let mid = midSenate.data.articles
-
-       
-         const h2 = document.createElement('h2')
-         const p = document.createElement('p')
+      const h2 = document.createElement('h2')
+      const p = document.createElement('p')
       const img = document.createElement('img')
       const a = document.createElement('a')
       const article = document.createElement('article')
-
-         img.src = mid[i].urlToImage
-         let network = mid[i].source.name
+      img.src = mid[i].urlToImage
+      let network = mid[i].source.name
       let title = mid[i].title
       a.href = mid[i].url
       a.textContent = "Click here to read the full article"
-     a.target = "_blank"
-         h2.textContent = network
-         p.textContent = title
-         article.append(h2)
-         article.append(img)
+      a.target = "_blank"
+      h2.textContent = network
+      p.textContent = title
+      article.append(h2)
+      article.append(img)
       article.append(p)
       article.append(a)
       midSenateSec.append(article)
@@ -271,24 +241,21 @@ const fetchNews = async () => {
     for (let i = 0; i < 5; i++){
       const rightSenateSec = document.querySelector("#right-senate")
       let right = rightSenate.data.articles
-
-       
-         const h2 = document.createElement('h2')
-         const p = document.createElement('p')
+      const h2 = document.createElement('h2')
+      const p = document.createElement('p')
       const img = document.createElement('img')
       const a = document.createElement('a')
       const article = document.createElement('article')
-
-         img.src = right[i].urlToImage
-         let network = right[i].source.name
+      img.src = right[i].urlToImage
+      let network = right[i].source.name
       let title = right[i].title
       a.href = right[i].url
       a.textContent = "Click here to read the full article"
-     a.target = "_blank"
-         h2.textContent = network
-         p.textContent = title
-         article.append(h2)
-         article.append(img)
+      a.target = "_blank"
+      h2.textContent = network
+      p.textContent = title
+      article.append(h2)
+      article.append(img)
       article.append(p)
       article.append(a)
       rightSenateSec.append(article)
@@ -299,24 +266,21 @@ const fetchNews = async () => {
     for (let i = 0; i < 5; i++){
       const leftScotusSec = document.querySelector("#left-scotus")
       let left = leftScotus.data.articles
-
-       
-         const h2 = document.createElement('h2')
-         const p = document.createElement('p')
+      const h2 = document.createElement('h2')
+      const p = document.createElement('p')
       const img = document.createElement('img')
       const a = document.createElement('a')
       const article = document.createElement('article')
-
-         img.src = left[i].urlToImage
-         let network = left[i].source.name
+      img.src = left[i].urlToImage
+      let network = left[i].source.name
       let title = left[i].title
       a.href = left[i].url
       a.textContent = "Click here to read the full article"
-     a.target = "_blank"
-         h2.textContent = network
-         p.textContent = title
-         article.append(h2)
-         article.append(img)
+      a.target = "_blank"
+      h2.textContent = network
+      p.textContent = title
+      article.append(h2)
+      article.append(img)
       article.append(p)
       article.append(a)
       leftScotusSec.append(article)
@@ -328,24 +292,22 @@ const fetchNews = async () => {
     for (let i = 0; i < 5; i++){
       const midScotusSec = document.querySelector("#mid-scotus")
       let mid = midScotus.data.articles
-
-       
-         const h2 = document.createElement('h2')
-         const p = document.createElement('p')
+      const h2 = document.createElement('h2')
+      const p = document.createElement('p')
       const img = document.createElement('img')
       const a = document.createElement('a')
       const article = document.createElement('article')
 
-         img.src = mid[i].urlToImage
-         let network = mid[i].source.name
+      img.src = mid[i].urlToImage
+      let network = mid[i].source.name
       let title = mid[i].title
       a.href = mid[i].url
       a.textContent = "Click here to read the full article"
-     a.target = "_blank"
-         h2.textContent = network
-         p.textContent = title
-         article.append(h2)
-         article.append(img)
+      a.target = "_blank"
+      h2.textContent = network
+      p.textContent = title
+      article.append(h2)
+      article.append(img)
       article.append(p)
       article.append(a)
       midScotusSec.append(article)
@@ -356,24 +318,21 @@ const fetchNews = async () => {
     for (let i = 0; i < 5; i++){
       const rightScotusSec = document.querySelector("#right-scotus")
       let right = rightScotus.data.articles
-
-       
-         const h2 = document.createElement('h2')
-         const p = document.createElement('p')
+      const h2 = document.createElement('h2')
+      const p = document.createElement('p')
       const img = document.createElement('img')
       const a = document.createElement('a')
       const article = document.createElement('article')
-
-         img.src = right[i].urlToImage
-         let network = right[i].source.name
-        let title = right[i].title
-         a.href = right[i].url
-        a.textContent = "Click here to read the full article"
-         a.target = "_blank"
-         h2.textContent = network
-         p.textContent = title
-         article.append(h2)
-         article.append(img)
+      img.src = right[i].urlToImage
+      let network = right[i].source.name
+      let title = right[i].title
+      a.href = right[i].url
+      a.textContent = "Click here to read the full article"
+      a.target = "_blank"
+      h2.textContent = network
+      p.textContent = title
+      article.append(h2)
+      article.append(img)
       article.append(p)
       article.append(a)
       rightScotusSec.append(article)
@@ -395,16 +354,4 @@ const fetchNews = async () => {
 
 
 fetchNews()
-
-
-
-
-
-// AXIOS API CALL
-
-
-
-
-// AXIOS API CALL
-
 

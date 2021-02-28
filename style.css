@@ -17,7 +17,6 @@ div h2{
   width: 100%
 }
 p {
-  /* width: 200px; */
   font-family: 'Prata', serif;
   text-align: center;
   margin: 40px auto;
@@ -360,12 +359,6 @@ li a {
 
 }
 
-
-
-
-
-
-
 #content-potus img {
   height: 150px;
   width: 200px;
@@ -427,10 +420,6 @@ li a {
     border-radius: 5%;
   }
 }
-
-
-
-
 
 
 #content-potus {

@@ -2,19 +2,49 @@
 
 // Main variables and endpoints here.
 
-const leftPotusURL = 'https://newsapi.org/v2/everything?qInTitle=Biden&domains=cnn.com,nbcnews.com,washingtonpost.com&sortBy=publishedAt&language=en&apiKey=90227dcd441a4362b5c3669eb2b7e229'
-const midPotusURL = 'https://newsapi.org/v2/everything?qInTitle=Biden&domains=apnews.com,pbs.org,npr.org&sortBy=publishedAt&language=en&apiKey=90227dcd441a4362b5c3669eb2b7e229'
-const rightPotusURL = 'https://newsapi.org/v2/everything?qInTitle=Biden&domains=nypost.com,foxnews.com&sortBy=publishedAt&language=en&apiKey=90227dcd441a4362b5c3669eb2b7e229'
-const leftHouseURL = 'https://newsapi.org/v2/everything?qInTitle=congress&domains=cnn.com,nbcnews.com,washingtonpost.com&sortBy=publishedAt&language=en&apiKey=90227dcd441a4362b5c3669eb2b7e229'
-const midHouseURL = 'https://newsapi.org/v2/everything?qInTitle=congress&domains=apnews.com,pbs.org,npr.org&sortBy=publishedAt&language=en&apiKey=90227dcd441a4362b5c3669eb2b7e229'
-const rightHouseURL = 'https://newsapi.org/v2/everything?qInTitle=congress&domains=nypost.com,foxnews.com&sortBy=publishedAt&language=en&apiKey=90227dcd441a4362b5c3669eb2b7e229'
-const leftSenateURL = 'https://newsapi.org/v2/everything?qInTitle=senate&domains=cnn.com,nbcnews.com,washingtonpost.com&sortBy=publishedAt&language=en&apiKey=90227dcd441a4362b5c3669eb2b7e229'
-const midSenateURL = 'https://newsapi.org/v2/everything?qInTitle=senate&domains=apnews.com,pbs.org,npr.org&sortBy=publishedAt&language=en&apiKey=90227dcd441a4362b5c3669eb2b7e229'
-const rightSenateURL = 'https://newsapi.org/v2/everything?qInTitle=senate&domains=foxnews.com,nypost.com&sortBy=publishedAt&language=en&apiKey=90227dcd441a4362b5c3669eb2b7e229'
-const leftScotusURL = 'https://newsapi.org/v2/everything?qInTitle=supreme-court&domains=cnn.com,nbcnews.com,washingtonpost.com&sortBy=publishedAt&language=en&apiKey=90227dcd441a4362b5c3669eb2b7e229'
-const midScotusURL = 'https://newsapi.org/v2/everything?qInTitle=supreme-court&domains=apnews.com,pbs.org,npr.org&sortBy=publishedAt&language=en&apiKey=90227dcd441a4362b5c3669eb2b7e229'
-const rightScotusURL = 'https://newsapi.org/v2/everything?qInTitle=supreme-court&domains=foxnews.com,nypost.com&sortBy=publishedAt&language=en&apiKey=90227dcd441a4362b5c3669eb2b7e229'
+const leftPotusURL = 'https://newsapi.org/v2/everything?qInTitle=Biden&domains=cnn.com,nbcnews.com,washingtonpost.com&sortBy=publishedAt&language=en&apiKey=95a83d20ba6a4d7e8466a1e9fc57b3d2'
+const midPotusURL = 'https://newsapi.org/v2/everything?qInTitle=Biden&domains=apnews.com,pbs.org,npr.org&sortBy=publishedAt&language=en&apiKey=95a83d20ba6a4d7e8466a1e9fc57b3d2'
+const rightPotusURL = 'https://newsapi.org/v2/everything?qInTitle=Biden&domains=nypost.com,foxnews.com&sortBy=publishedAt&language=en&apiKey=95a83d20ba6a4d7e8466a1e9fc57b3d2'
+const leftHouseURL = 'https://newsapi.org/v2/everything?qInTitle=congress&domains=cnn.com,nbcnews.com,washingtonpost.com&sortBy=publishedAt&language=en&apiKey=95a83d20ba6a4d7e8466a1e9fc57b3d2'
+const midHouseURL = 'https://newsapi.org/v2/everything?qInTitle=congress&domains=apnews.com,pbs.org,npr.org&sortBy=publishedAt&language=en&apiKey=95a83d20ba6a4d7e8466a1e9fc57b3d2'
+const rightHouseURL = 'https://newsapi.org/v2/everything?qInTitle=congress&domains=nypost.com,foxnews.com&sortBy=publishedAt&language=en&apiKey=95a83d20ba6a4d7e8466a1e9fc57b3d2'
+const leftSenateURL = 'https://newsapi.org/v2/everything?qInTitle=senate&domains=cnn.com,nbcnews.com,washingtonpost.com&sortBy=publishedAt&language=en&apiKey=95a83d20ba6a4d7e8466a1e9fc57b3d2'
+const midSenateURL = 'https://newsapi.org/v2/everything?qInTitle=senate&domains=apnews.com,pbs.org,npr.org&sortBy=publishedAt&language=en&apiKey=95a83d20ba6a4d7e8466a1e9fc57b3d2'
+const rightSenateURL = 'https://newsapi.org/v2/everything?qInTitle=senate&domains=foxnews.com,nypost.com&sortBy=publishedAt&language=en&apiKey=95a83d20ba6a4d7e8466a1e9fc57b3d2'
+const leftScotusURL = 'https://newsapi.org/v2/everything?qInTitle=supreme-court&domains=cnn.com,nbcnews.com,washingtonpost.com&sortBy=publishedAt&language=en&apiKey=95a83d20ba6a4d7e8466a1e9fc57b3d2'
+const midScotusURL = 'https://newsapi.org/v2/everything?qInTitle=supreme-court&domains=apnews.com,pbs.org,npr.org&sortBy=publishedAt&language=en&apiKey=95a83d20ba6a4d7e8466a1e9fc57b3d2'
+const rightScotusURL = 'https://newsapi.org/v2/everything?qInTitle=supreme-court&domains=foxnews.com,nypost.com&sortBy=publishedAt&language=en&apiKey=95a83d20ba6a4d7e8466a1e9fc57b3d2'
 
+let cnnLogo = document.createElement('img')
+cnnLogo.src = "assets/cnnlogo.jpg"
+cnnLogo.alt = "C N N"
+cnnLogo.style.height = "25px";
+cnnLogo.style.width = "125px";
+let wapoLogo = document.createElement('img')
+wapoLogo.src = "assets/wapologo.jpg"
+wapoLogo.alt = "washington post"
+wapoLogo.style.height = "25px";
+wapoLogo.style.width = "200px";
+let nbcLogo = document.createElement('img')
+nbcLogo.src = "assets/nbclogo.png"
+nbcLogo.alt = "N B C"
+nbcLogo.style.height = "25px";
+nbcLogo.style.width = "125px";
+let apLogo = document.createElement('img')
+apLogo.src = "assets/aplogo.png"
+apLogo.alt = "Associated Press"
+let pbsLogo = document.createElement('img')
+pbsLogo.src = "assets/pbslogo.jpg"
+pbsLogo.alt = "P B S News"
+let nprLogo = document.createElement('img')
+nprLogo.src = "assets/nprlogo.png"
+nprLogo.alt = "N P R"
+let foxLogo = document.createElement('img')
+foxLogo.src = "assets/foxnewslogo.png"
+foxLogo.alt = "Fox News"
+let nypLogo = document.createElement('img')
+nypLogo.src = "assets/newyorkpostlogo.png"
+nypLogo.alt = "The New York Post"
 
 
   
@@ -36,8 +66,6 @@ const fetchNews = async () => {
     let leftScotus = await axios.get(`${cors}${leftScotusURL}`);
     let midScotus = await axios.get(`${cors}${midScotusURL}`);
     let rightScotus = await axios.get(`${cors}${rightScotusURL}`);
-    
-
     for (let i = 0; i < 5; i++){
       const leftPotusSec = document.querySelector("#left-potus")
       let left = leftPotus.data.articles
@@ -53,14 +81,24 @@ const fetchNews = async () => {
       let title = left[i].title
       a.href = left[i].url
       a.textContent = "Click here to read the full article"
-     a.target = "_blank"
-         h2.textContent = network
+      a.target = "_blank"
+      
+      h2.textContent = network
       p.textContent = title
-         article.append(h2)
+        article.append(h2)
          article.append(img)
       article.append(p)
       article.append(a)
       leftPotusSec.append(article)
+      
+     
+      a.textContent = "Click here to read the full article"
+      a.target = "_blank"
+      
+        //  h2.textContent = network
+      p.textContent = title
+        //  article.append(h2)
+        
     }
     
       
@@ -79,11 +117,11 @@ const fetchNews = async () => {
          let network = mid[i].source.name
       let title = mid[i].title
       a.href = mid[i].url
+      h2.textContent = network
       a.textContent = "Click here to read the full article"
      a.target = "_blank"
-         h2.textContent = network
-         p.textContent = title
-         article.append(h2)
+      p.textContent = title
+      article.append(h2)
          article.append(img)
       article.append(p)
       article.append(a)

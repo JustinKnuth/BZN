@@ -71,23 +71,28 @@ const fetchNews = async () => {
       let left = leftPotus.data.articles
 
        
-         const h2 = document.createElement('h2')
-         const p = document.createElement('p')
+      const h2 = document.createElement('h2')
+      const p = document.createElement('p')
+         const p2 = document.createElement('p')
       const img = document.createElement('img')
       const a = document.createElement('a')
       const article = document.createElement('article')
          img.src = left[i].urlToImage
          let network = left[i].source.name
       let title = left[i].title
+      let description = left[i].description
       a.href = left[i].url
       a.textContent = "Click here to read the full article"
       a.target = "_blank"
       
       h2.textContent = network
+
       p.textContent = title
+      p2.textContent = description
         article.append(h2)
          article.append(img)
       article.append(p)
+      article.append(p2)
       article.append(a)
       leftPotusSec.append(article)
       

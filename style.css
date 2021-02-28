@@ -472,4 +472,38 @@ text-align: center;
     
     }
 
+    #navbar{
+      width: 100%;
+      background-color: slategray;
+      margin: 0 auto;
+     
+    }
+    li {
+      list-style: none;
+      display: inline;
+      width:20%;
+      text-align: center;
+      font-family: 'Prata', serif;
+      color: white;
+      text-decoration: none;
+      margin: 0 40px;
+    }
+    li a {
+      color: white;
+      text-decoration: none;
+      justify-content: space-around;
+    }
+    ul{
+      text-align: center;
+      justify-content: space-around;
+      margin: 0 auto;
+      width: 100%;
+    }
+    #about p {
+      width: 400px;
+    }
+    #disclaimer p {
+      width: 400px;
+    }
+
       

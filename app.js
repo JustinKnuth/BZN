@@ -2,16 +2,16 @@
 
 // Main variables and endpoints here.
 
-const leftPotusURL = 'https://newsapi.org/v2/everything?qInTitle=Biden&domains=cnn.com,nbcnews.com,washingtonpost.com,nytimes.com&sortBy=publishedAt&language=en&apiKey=90227dcd441a4362b5c3669eb2b7e229'
+const leftPotusURL = 'https://newsapi.org/v2/everything?qInTitle=Biden&domains=cnn.com,nbcnews.com,washingtonpost.com&sortBy=publishedAt&language=en&apiKey=90227dcd441a4362b5c3669eb2b7e229'
 const midPotusURL = 'https://newsapi.org/v2/everything?qInTitle=Biden&domains=apnews.com,pbs.org,npr.org&sortBy=publishedAt&language=en&apiKey=90227dcd441a4362b5c3669eb2b7e229'
 const rightPotusURL = 'https://newsapi.org/v2/everything?qInTitle=Biden&domains=nypost.com,foxnews.com&sortBy=publishedAt&language=en&apiKey=90227dcd441a4362b5c3669eb2b7e229'
-const leftHouseURL = 'https://newsapi.org/v2/everything?qInTitle=congress&domains=cnn.com,nbcnews.com,washingtonpost.com,nytimes.com&sortBy=publishedAt&language=en&apiKey=90227dcd441a4362b5c3669eb2b7e229'
+const leftHouseURL = 'https://newsapi.org/v2/everything?qInTitle=congress&domains=cnn.com,nbcnews.com,washingtonpost.com&sortBy=publishedAt&language=en&apiKey=90227dcd441a4362b5c3669eb2b7e229'
 const midHouseURL = 'https://newsapi.org/v2/everything?qInTitle=congress&domains=apnews.com,pbs.org,npr.org&sortBy=publishedAt&language=en&apiKey=90227dcd441a4362b5c3669eb2b7e229'
 const rightHouseURL = 'https://newsapi.org/v2/everything?qInTitle=congress&domains=nypost.com,foxnews.com&sortBy=publishedAt&language=en&apiKey=90227dcd441a4362b5c3669eb2b7e229'
-const leftSenateURL = 'https://newsapi.org/v2/everything?qInTitle=senate&domains=cnn.com,nbcnews.com,washingtonpost.com,nytimes.com&sortBy=publishedAt&language=en&apiKey=90227dcd441a4362b5c3669eb2b7e229'
+const leftSenateURL = 'https://newsapi.org/v2/everything?qInTitle=senate&domains=cnn.com,nbcnews.com,washingtonpost.com&sortBy=publishedAt&language=en&apiKey=90227dcd441a4362b5c3669eb2b7e229'
 const midSenateURL = 'https://newsapi.org/v2/everything?qInTitle=senate&domains=apnews.com,pbs.org,npr.org&sortBy=publishedAt&language=en&apiKey=90227dcd441a4362b5c3669eb2b7e229'
 const rightSenateURL = 'https://newsapi.org/v2/everything?qInTitle=senate&domains=foxnews.com,nypost.com&sortBy=publishedAt&language=en&apiKey=90227dcd441a4362b5c3669eb2b7e229'
-const leftScotusURL = 'https://newsapi.org/v2/everything?qInTitle=supreme-court&domains=cnn.com,nbcnews.com,washingtonpost.com,nytimes.com&sortBy=publishedAt&language=en&apiKey=90227dcd441a4362b5c3669eb2b7e229'
+const leftScotusURL = 'https://newsapi.org/v2/everything?qInTitle=supreme-court&domains=cnn.com,nbcnews.com,washingtonpost.com&sortBy=publishedAt&language=en&apiKey=90227dcd441a4362b5c3669eb2b7e229'
 const midScotusURL = 'https://newsapi.org/v2/everything?qInTitle=supreme-court&domains=apnews.com,pbs.org,npr.org&sortBy=publishedAt&language=en&apiKey=90227dcd441a4362b5c3669eb2b7e229'
 const rightScotusURL = 'https://newsapi.org/v2/everything?qInTitle=supreme-court&domains=foxnews.com,nypost.com&sortBy=publishedAt&language=en&apiKey=90227dcd441a4362b5c3669eb2b7e229'
 
@@ -47,6 +47,7 @@ const fetchNews = async () => {
          const p = document.createElement('p')
       const img = document.createElement('img')
       const a = document.createElement('a')
+      const article = document.createElement('article')
          img.src = left[i].urlToImage
          let network = left[i].source.name
       let title = left[i].title
@@ -54,11 +55,12 @@ const fetchNews = async () => {
       a.textContent = "Click here to read the full article"
      a.target = "_blank"
          h2.textContent = network
-         p.textContent = title
-         leftPotusSec.append(h2)
-         leftPotusSec.append(img)
-      leftPotusSec.append(p)
-      leftPotusSec.append(a)
+      p.textContent = title
+         article.append(h2)
+         article.append(img)
+      article.append(p)
+      article.append(a)
+      leftPotusSec.append(article)
     }
     
       
@@ -71,6 +73,8 @@ const fetchNews = async () => {
          const p = document.createElement('p')
       const img = document.createElement('img')
       const a = document.createElement('a')
+      const article = document.createElement('article')
+
          img.src = mid[i].urlToImage
          let network = mid[i].source.name
       let title = mid[i].title
@@ -79,10 +83,11 @@ const fetchNews = async () => {
      a.target = "_blank"
          h2.textContent = network
          p.textContent = title
-         midPotusSec.append(h2)
-         midPotusSec.append(img)
-      midPotusSec.append(p)
-      midPotusSec.append(a)
+         article.append(h2)
+         article.append(img)
+      article.append(p)
+      article.append(a)
+      midPotusSec.append(article)
         
     }
     
@@ -95,6 +100,8 @@ const fetchNews = async () => {
          const p = document.createElement('p')
       const img = document.createElement('img')
       const a = document.createElement('a')
+      const article = document.createElement('article')
+
          img.src = right[i].urlToImage
          let network = right[i].source.name
       let title = right[i].title
@@ -103,10 +110,11 @@ const fetchNews = async () => {
      a.target = "_blank"
          h2.textContent = network
          p.textContent = title
-         rightPotusSec.append(h2)
-         rightPotusSec.append(img)
-      rightPotusSec.append(p)
-      rightPotusSec.append(a)
+         article.append(h2)
+         article.append(img)
+      article.append(p)
+      article.append(a)
+      rightPotusSec.append(article)
         
     }
 
@@ -119,6 +127,8 @@ const fetchNews = async () => {
          const p = document.createElement('p')
       const img = document.createElement('img')
       const a = document.createElement('a')
+      const article = document.createElement('article')
+
          img.src = left[i].urlToImage
          let network = left[i].source.name
       let title = left[i].title
@@ -127,11 +137,11 @@ const fetchNews = async () => {
      a.target = "_blank"
          h2.textContent = network
          p.textContent = title
-         leftHouseSec.append(h2)
-         leftHouseSec.append(img)
-      leftHouseSec.append(p)
-      leftHouseSec.append(a)
-
+         article.append(h2)
+         article.append(img)
+      article.append(p)
+      article.append(a)
+      leftHouseSec.append(article)
         
     }
 
@@ -144,6 +154,8 @@ const fetchNews = async () => {
          const p = document.createElement('p')
       const img = document.createElement('img')
       const a = document.createElement('a')
+      const article = document.createElement('article')
+
          img.src = mid[i].urlToImage
          let network = mid[i].source.name
       let title = mid[i].title
@@ -152,10 +164,11 @@ const fetchNews = async () => {
      a.target = "_blank"
          h2.textContent = network
          p.textContent = title
-         midHouseSec.append(h2)
-         midHouseSec.append(img)
-      midHouseSec.append(p)
-      midHouseSec.append(a)
+         article.append(h2)
+         article.append(img)
+      article.append(p)
+      article.append(a)
+      midHouseSec.append(article)
 
         
     }
@@ -169,6 +182,8 @@ const fetchNews = async () => {
          const p = document.createElement('p')
       const img = document.createElement('img')
       const a = document.createElement('a')
+      const article = document.createElement('article')
+
          img.src = right[i].urlToImage
          let network = right[i].source.name
       let title = right[i].title
@@ -177,10 +192,11 @@ const fetchNews = async () => {
      a.target = "_blank"
          h2.textContent = network
          p.textContent = title
-         rightHouseSec.append(h2)
-         rightHouseSec.append(img)
-      rightHouseSec.append(p)
-      rightHouseSec.append(a)
+         article.append(h2)
+         article.append(img)
+      article.append(p)
+      article.append(a)
+      rightHouseSec.append(article)
         
     }
 
@@ -192,7 +208,9 @@ const fetchNews = async () => {
         const h2 = document.createElement('h2')
         const p = document.createElement('p')
         const img = document.createElement('img')
-        const a = document.createElement('a')
+      const a = document.createElement('a')
+      const article = document.createElement('article')
+
         a.href = left[i].url
         img.src = left[i].urlToImage
         let network = left[i].source.name
@@ -201,10 +219,11 @@ const fetchNews = async () => {
         a.target = "_blank"
         h2.textContent = network
         p.textContent = title
-        leftSenateSec.append(h2)
-        leftSenateSec.append(img)
-      leftSenateSec.append(p)
-      leftSenateSec.append(a)
+        article.append(h2)
+         article.append(img)
+      article.append(p)
+      article.append(a)
+      leftSenateSec.append(article)
         
     }
 
@@ -217,6 +236,8 @@ const fetchNews = async () => {
          const p = document.createElement('p')
       const img = document.createElement('img')
       const a = document.createElement('a')
+      const article = document.createElement('article')
+
          img.src = mid[i].urlToImage
          let network = mid[i].source.name
       let title = mid[i].title
@@ -225,10 +246,11 @@ const fetchNews = async () => {
      a.target = "_blank"
          h2.textContent = network
          p.textContent = title
-         midSenateSec.append(h2)
-         midSenateSec.append(img)
-      midSenateSec.append(p)
-      midSenateSec.append(a)
+         article.append(h2)
+         article.append(img)
+      article.append(p)
+      article.append(a)
+      midSenateSec.append(article)
 
         
     }
@@ -242,6 +264,8 @@ const fetchNews = async () => {
          const p = document.createElement('p')
       const img = document.createElement('img')
       const a = document.createElement('a')
+      const article = document.createElement('article')
+
          img.src = right[i].urlToImage
          let network = right[i].source.name
       let title = right[i].title
@@ -250,10 +274,11 @@ const fetchNews = async () => {
      a.target = "_blank"
          h2.textContent = network
          p.textContent = title
-         rightSenateSec.append(h2)
-         rightSenateSec.append(img)
-      rightSenateSec.append(p)
-      rightSenateSec.append(a)
+         article.append(h2)
+         article.append(img)
+      article.append(p)
+      article.append(a)
+      rightSenateSec.append(article)
 
         
     }
@@ -267,6 +292,8 @@ const fetchNews = async () => {
          const p = document.createElement('p')
       const img = document.createElement('img')
       const a = document.createElement('a')
+      const article = document.createElement('article')
+
          img.src = left[i].urlToImage
          let network = left[i].source.name
       let title = left[i].title
@@ -275,10 +302,12 @@ const fetchNews = async () => {
      a.target = "_blank"
          h2.textContent = network
          p.textContent = title
-         leftScotusSec.append(h2)
-         leftScotusSec.append(img)
-      leftScotusSec.append(p)
-      leftScotusSec.append(a)
+         article.append(h2)
+         article.append(img)
+      article.append(p)
+      article.append(a)
+      leftScotusSec.append(article)
+        
 
         
     }
@@ -292,6 +321,8 @@ const fetchNews = async () => {
          const p = document.createElement('p')
       const img = document.createElement('img')
       const a = document.createElement('a')
+      const article = document.createElement('article')
+
          img.src = mid[i].urlToImage
          let network = mid[i].source.name
       let title = mid[i].title
@@ -300,10 +331,11 @@ const fetchNews = async () => {
      a.target = "_blank"
          h2.textContent = network
          p.textContent = title
-         midScotusSec.append(h2)
-         midScotusSec.append(img)
-      midScotusSec.append(p)
-      midScotusSec.append(a)
+         article.append(h2)
+         article.append(img)
+      article.append(p)
+      article.append(a)
+      midScotusSec.append(article)
 
         
     }
@@ -317,6 +349,8 @@ const fetchNews = async () => {
          const p = document.createElement('p')
       const img = document.createElement('img')
       const a = document.createElement('a')
+      const article = document.createElement('article')
+
          img.src = right[i].urlToImage
          let network = right[i].source.name
         let title = right[i].title
@@ -325,10 +359,11 @@ const fetchNews = async () => {
          a.target = "_blank"
          h2.textContent = network
          p.textContent = title
-         rightScotusSec.append(h2)
-         rightScotusSec.append(img)
-        rightScotusSec.append(p)
-        rightScotusSec.append(a)
+         article.append(h2)
+         article.append(img)
+      article.append(p)
+      article.append(a)
+      rightScotusSec.append(article)
 
         
     }

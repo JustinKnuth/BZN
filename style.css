@@ -22,6 +22,7 @@ p {
   margin: 40px auto;
   width: 200px;
 }
+
 h1 {
   font-family: 'Prata', serif;
 }
@@ -66,21 +67,7 @@ footer {
   width: 100px;
   
 }
-@media screen and (max-width: 500px){
-    .seals{
-      height: 60px !important;
-      width: 60px !important;
-    }
 
-    .category-main{
-      display: flex;
-      justify-content: center;
-      font-size: 70% !important;
-      font-family: 'Prata', serif;
-      margin-top: 100px;
-    }
-    
-}
 
 .category-main{
   display: flex;
@@ -362,6 +349,13 @@ footer {
 
 }
 
+#content-potus {
+  display: flex;
+  justify-content: space-around;
+  flex-direction: row;
+  text-align: center; 
+}
+
 #content-potus img {
   height: 150px;
   width: 200px;
@@ -369,43 +363,82 @@ footer {
   border-radius: 5%;
 }
 
+#content-house {
+  display: flex;
+  justify-content: space-around;
+  flex-direction: row;
+  text-align: center;  
+}
+
+#content-house img {
+  height: 150px;
+  width: 200px;
+  box-shadow: 5px 5px 8px #888888;
+  border-radius: 5%;
+}
+
+#content-senate {
+  display: flex;
+  justify-content: space-around;
+  flex-direction: row;
+  text-align: center;  
+
+}
+
+#content-senate img {
+  height: 150px;
+  width: 200px;
+  box-shadow: 5px 5px 8px #888888;
+  border-radius: 5%;
+}
+
+#content-scotus img {
+  height: 150px;
+  width: 200px;
+  box-shadow: 5px 5px 8px #888888;
+  border-radius: 5%;
+}
+
+#content-scotus {
+  display: flex;
+  justify-content: space-around;
+  flex-direction: row;
+  text-align: center;  
+
+}
+
+#navbar{
+  width: 100%;
+  background-color: slategray;
+  margin: 0 auto;
+  box-shadow: 5px 5px 8px #888888;
+
+ 
+}
+
+#about p {
+  width: 400px;
+}
+#disclaimer p {
+  width: 400px;
+}
+
+
 @media screen and (max-width: 500px){
+  .seals{
+    height: 60px !important;
+    width: 60px !important;
+  }
+
+  .category-main{
+    display: flex;
+    justify-content: center;
+    font-size: 70% !important;
+    font-family: 'Prata', serif;
+    margin-top: 100px;
+  }
+  
   #content-potus img{
-    height: 75px !important;
-    width: 125px !important;
-    box-shadow: 5px 5px 8px #888888;
-    border-radius: 5%;
-  }
-
-  #content-house img{
-    height: 75px !important;
-    width: 125px !important;
-    box-shadow: 5px 5px 8px #888888;
-    border-radius: 5%;
-  }
-
-  #content-senate img{
-    height: 75px !important;
-    width: 125px !important;
-    box-shadow: 5px 5px 8px #888888;
-    border-radius: 5%;
-  }
-
-  #content-scotus img {
-    height: 150px;
-    width: 200px;
-    box-shadow: 5px 5px 8px #888888;
-    border-radius: 5%;
-  }
-
-  #content-senate img {
-    height: 150px;
-    width: 200px;
-    box-shadow: 5px 5px 8px #888888;
-    border-radius: 5%;
-  }
-
-  #content-scotus img{
     height: 75px !important;
     width: 125px !important;
     box-shadow: 5px 5px 8px #888888;
@@ -423,123 +456,63 @@ footer {
     font-size: 16px;
   }
 
-  #content-potus {
+  #content-house{
     display: flex;
     justify-content: space-around;
     flex-direction: row;
-    text-align: center; 
-    }
-
-    #content-house{
-      display: flex;
-      justify-content: space-around;
-      flex-direction: row;
-      font-size: 80% !important;
-    }
-    #content-house p {
-      font-size: 16px;
-    }
-
-    #content-house {
-      display: flex;
-      justify-content: space-around;
-      flex-direction: row;
-        text-align: center;  
-    
-      }
-
-
-
-
-}
-
-
-#content-house img {
-  height: 150px;
-  width: 200px;
-  box-shadow: 5px 5px 8px #888888;
-  border-radius: 5%;
-}
-@media screen and (max-width: 500px){
-  
-}
-
-
-@media screen and (max-width: 500px){
-  
-}
-
-
-@media screen and (max-width: 500px){
-  
-}
-
-
-
-@media screen and (max-width: 500px){
-    
-
-}
-
-
-  @media screen and (max-width: 500px){
-    
-}
-
-  #content-senate {
-    display: flex;
-    justify-content: space-around;
-    flex-direction: row;
-      text-align: center;  
-
-    }
-    @media screen and (max-width: 500px){
-      #content-senate{
-        display: flex;
-        justify-content: space-around;
-        flex-direction: row;
-        font-size: 80% !important;
-      }
-      #content-senate p {
-        font-size: 16px;
-      }
-  
+    font-size: 80% !important;
   }
 
-    #content-scotus {
-      display: flex;
-      justify-content: space-around;
-      flex-direction: row;
-        text-align: center;  
+  #content-house img{
+    height: 75px !important;
+    width: 125px !important;
+    box-shadow: 5px 5px 8px #888888;
+    border-radius: 5%;
+  }
 
-      }
-      @media screen and (max-width: 500px){
-        #content-scotus{
-          display: flex;
-          justify-content: space-around;
-          flex-direction: row;
-          font-size: 80% !important;
-        }
-        #content-scotus p {
-          font-size: 16px;
-        }
+  #content-house p {
+    font-size: 16px;
+  }
+
+  #content-senate img{
+    height: 75px !important;
+    width: 125px !important;
+    box-shadow: 5px 5px 8px #888888;
+    border-radius: 5%;
+  }
+
+  #content-scotus img{
+    height: 75px !important;
+    width: 125px !important;
+    box-shadow: 5px 5px 8px #888888;
+    border-radius: 5%;
+  }
+
+   
+  #content-senate{
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+    font-size: 80% !important;
+  }
+
+  #content-senate p {
+    font-size: 16px;
+  }
+
+  #content-scotus{
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+    font-size: 80% !important;
+  }
+
+  #content-scotus p {
+    font-size: 16px;
+  }
+}
     
-    }
 
-    #navbar{
-      width: 100%;
-      background-color: slategray;
-      margin: 0 auto;
-      box-shadow: 5px 5px 8px #888888;
-
-     
-    }
     
-    #about p {
-      width: 400px;
-    }
-    #disclaimer p {
-      width: 400px;
-    }
 
       

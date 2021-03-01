@@ -1,17 +1,17 @@
 // Main variables and endpoints here.
 
-const leftPotusURL = 'https://newsapi.org/v2/everything?qInTitle=Biden&domains=cnn.com,nbcnews.com,washingtonpost.com&sortBy=publishedAt&language=en&apiKey=eaf83656ce23489da880c35a9d5055ad'
-const midPotusURL = 'https://newsapi.org/v2/everything?qInTitle=Biden&domains=apnews.com,pbs.org,npr.org&sortBy=publishedAt&language=en&apiKey=eaf83656ce23489da880c35a9d5055ad'
-const rightPotusURL = 'https://newsapi.org/v2/everything?qInTitle=Biden&domains=nypost.com,foxnews.com&sortBy=publishedAt&language=en&apiKey=eaf83656ce23489da880c35a9d5055ad'
-const leftHouseURL = 'https://newsapi.org/v2/everything?qInTitle=congress&domains=cnn.com,nbcnews.com,washingtonpost.com&sortBy=publishedAt&language=en&apiKey=eaf83656ce23489da880c35a9d5055ad'
-const midHouseURL = 'https://newsapi.org/v2/everything?qInTitle=congress&domains=apnews.com,pbs.org,npr.org&sortBy=publishedAt&language=en&apiKey=eaf83656ce23489da880c35a9d5055ad'
-const rightHouseURL = 'https://newsapi.org/v2/everything?qInTitle=congress&domains=nypost.com,foxnews.com&sortBy=publishedAt&language=en&apiKey=eaf83656ce23489da880c35a9d5055ad'
-const leftSenateURL = 'https://newsapi.org/v2/everything?qInTitle=senate&domains=cnn.com,nbcnews.com,washingtonpost.com&sortBy=publishedAt&language=en&apiKey=eaf83656ce23489da880c35a9d5055ad'
-const midSenateURL = 'https://newsapi.org/v2/everything?qInTitle=senate&domains=apnews.com,pbs.org,npr.org&sortBy=publishedAt&language=en&apiKey=eaf83656ce23489da880c35a9d5055ad'
-const rightSenateURL = 'https://newsapi.org/v2/everything?qInTitle=senate&domains=foxnews.com,nypost.com&sortBy=publishedAt&language=en&apiKey=eaf83656ce23489da880c35a9d5055ad'
-const leftScotusURL = 'https://newsapi.org/v2/everything?qInTitle=supreme-court&domains=cnn.com,nbcnews.com,washingtonpost.com&sortBy=publishedAt&language=en&apiKey=eaf83656ce23489da880c35a9d5055ad'
-const midScotusURL = 'https://newsapi.org/v2/everything?qInTitle=supreme-court&domains=apnews.com,pbs.org,npr.org&sortBy=publishedAt&language=en&apiKey=eaf83656ce23489da880c35a9d5055ad'
-const rightScotusURL = 'https://newsapi.org/v2/everything?qInTitle=supreme-court&domains=foxnews.com,nypost.com&sortBy=publishedAt&language=en&apiKey=eaf83656ce23489da880c35a9d5055ad'
+const leftPotusURL = 'http://newsapi.org/v2/everything?qInTitle=Biden&domains=cnn.com,nbcnews.com,washingtonpost.com&sortBy=publishedAt&language=en&apiKey=eaf83656ce23489da880c35a9d5055ad'
+const midPotusURL = 'http://newsapi.org/v2/everything?qInTitle=Biden&domains=apnews.com,pbs.org,npr.org&sortBy=publishedAt&language=en&apiKey=eaf83656ce23489da880c35a9d5055ad'
+const rightPotusURL = 'http://newsapi.org/v2/everything?qInTitle=Biden&domains=nypost.com,foxnews.com&sortBy=publishedAt&language=en&apiKey=eaf83656ce23489da880c35a9d5055ad'
+const leftHouseURL = 'http://newsapi.org/v2/everything?qInTitle=congress&domains=cnn.com,nbcnews.com,washingtonpost.com&sortBy=publishedAt&language=en&apiKey=eaf83656ce23489da880c35a9d5055ad'
+const midHouseURL = 'http://newsapi.org/v2/everything?qInTitle=congress&domains=apnews.com,pbs.org,npr.org&sortBy=publishedAt&language=en&apiKey=eaf83656ce23489da880c35a9d5055ad'
+const rightHouseURL = 'http://newsapi.org/v2/everything?qInTitle=congress&domains=nypost.com,foxnews.com&sortBy=publishedAt&language=en&apiKey=eaf83656ce23489da880c35a9d5055ad'
+const leftSenateURL = 'http://newsapi.org/v2/everything?qInTitle=senate&domains=cnn.com,nbcnews.com,washingtonpost.com&sortBy=publishedAt&language=en&apiKey=eaf83656ce23489da880c35a9d5055ad'
+const midSenateURL = 'http://newsapi.org/v2/everything?qInTitle=senate&domains=apnews.com,pbs.org,npr.org&sortBy=publishedAt&language=en&apiKey=eaf83656ce23489da880c35a9d5055ad'
+const rightSenateURL = 'http://newsapi.org/v2/everything?qInTitle=senate&domains=foxnews.com,nypost.com&sortBy=publishedAt&language=en&apiKey=eaf83656ce23489da880c35a9d5055ad'
+const leftScotusURL = 'http://newsapi.org/v2/everything?qInTitle=supreme-court&domains=cnn.com,nbcnews.com,washingtonpost.com&sortBy=publishedAt&language=en&apiKey=eaf83656ce23489da880c35a9d5055ad'
+const midScotusURL = 'http://newsapi.org/v2/everything?qInTitle=supreme-court&domains=apnews.com,pbs.org,npr.org&sortBy=publishedAt&language=en&apiKey=eaf83656ce23489da880c35a9d5055ad'
+const rightScotusURL = 'http://newsapi.org/v2/everything?qInTitle=supreme-court&domains=foxnews.com,nypost.com&sortBy=publishedAt&language=en&apiKey=eaf83656ce23489da880c35a9d5055ad'
 
 
 
@@ -20,21 +20,21 @@ const rightScotusURL = 'https://newsapi.org/v2/everything?qInTitle=supreme-court
 
 
 const fetchNews = async () => {
-  const cors = 'http://cors-anywhere.herokuapp.com/'
+  // const cors = 'http://cors-anywhere.herokuapp.com/'
  
   try {
-    let leftPotus = await axios.get(`${cors}${leftPotusURL}`);
-    let midPotus = await axios.get(`${cors}${midPotusURL}`);
-    let rightPotus = await axios.get(`${cors}${rightPotusURL}`);
-    let leftHouse = await axios.get(`${cors}${leftHouseURL}`);
-    let midHouse = await axios.get(`${cors}${midHouseURL}`);
-    let rightHouse = await axios.get(`${cors}${rightHouseURL}`);
-    let leftSenate = await axios.get(`${cors}${leftSenateURL}`);
-    let midSenate = await axios.get(`${cors}${midSenateURL}`);
-    let rightSenate = await axios.get(`${cors}${rightSenateURL}`);
-    let leftScotus = await axios.get(`${cors}${leftScotusURL}`);
-    let midScotus = await axios.get(`${cors}${midScotusURL}`);
-    let rightScotus = await axios.get(`${cors}${rightScotusURL}`);
+    let leftPotus = await axios.get(`${leftPotusURL}`);
+    let midPotus = await axios.get(`${midPotusURL}`);
+    let rightPotus = await axios.get(`${rightPotusURL}`);
+    let leftHouse = await axios.get(`${leftHouseURL}`);
+    let midHouse = await axios.get(`${midHouseURL}`);
+    let rightHouse = await axios.get(`${rightHouseURL}`);
+    let leftSenate = await axios.get(`${leftSenateURL}`);
+    let midSenate = await axios.get(`${midSenateURL}`);
+    let rightSenate = await axios.get(`${rightSenateURL}`);
+    let leftScotus = await axios.get(`${leftScotusURL}`);
+    let midScotus = await axios.get(`${midScotusURL}`);
+    let rightScotus = await axios.get(`${rightScotusURL}`);
 
 
     for (let i = 0; i < 5; i++){

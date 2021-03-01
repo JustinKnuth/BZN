@@ -76,11 +76,11 @@ https://github.com/JustinKnuth/BZN/blob/master/assets/wireframe%20category%20pag
 |  Day | Deliverable | Status
 |---|---| ---|
 |Feb 22| Prompt / Wireframes / Timeframes | Complete
-|Feb 23| Project Approval / Core Structure / HTML / Pseudocode | Incomplete
-|Feb 24| API Calls and Filtering / CSS | Incomplete
-|Feb 24| Render API Information | Incomplete
-|Feb 25| Initial Clickable Model / MVP  | Incomplete
-|Feb 26| Responsive Design / Refine CSS | Incomplete
+|Feb 23| Project Approval / Core Structure / HTML / Pseudocode | Complete
+|Feb 24| API Calls and Filtering / CSS | Complete
+|Feb 24| Render API Information | Complete
+|Feb 25| Initial Clickable Model / MVP  | Complete
+|Feb 26| Responsive Design / Refine CSS | Complete
 |March 1| Presentations | Incomplete
 
 ## Priority Matrix
@@ -94,24 +94,55 @@ https://github.com/JustinKnuth/BZN/blob/master/assets/Updated%20PDF%20for%20GA.p
 | Component | Priority | Estimated Time | Time Invested | Actual Time |
 | --- | :---: |  :---: | :---: | :---: |
 | Planning / Preparation  | H | 2hrs| 2hrs | 2hrs |
-| Research Similar Products | L | 2hrs |
-| Core Structure  | H | 1hr |
-| CSS Box Organization  | H | 2hrs |
-| Pseudocode  | L | 1.5hrs |
-| Scripts for API  | H | 3hrs | 
-| Retrieve Correct Data  | H | 3hrs |
-| Display Correct Data | H | 3hrs |
-| Media Queries | H | 3hrs |
-| CSS Body Styling | L | 2hrs |
-| Navigation Menu Creation and Style | H | 2.5hrs |
-| Create User-Friendly Experience | H | 3hrs |
-| Debugging | H | 2hrs |
-| Code Organization for Readability | H | 2hrs |
-| Image-Sizing | H | 2hrs |
-| Total | H | 34hrs | | |
+| Research Similar Products | L | 2hrs | 1hr | 1hr |
+| Core Structure  | H | 1hr | 1hr | 1hr |
+| CSS Box Organization  | H | 2hrs | 2hrs | 2hrs
+| Pseudocode  | L | 1.5hrs | 10m | 10m |
+| Scripts for API  | H | 3hrs | 3hrs | 4hrs |
+| Retrieve Correct Data  | H | 3hrs | 1hr | 1hr |
+| Display Correct Data | H | 3hrs | 3hrs | 3hrs |
+| Media Queries | H | 3hrs | 3hrs | 3hrs |
+| CSS Body Styling | L | 2hrs | 1hr | 1hr |
+| Navigation Menu Creation and Style | H | 2.5hrs | 2hrs | 2hrs |
+| Create User-Friendly Experience | H | 3hrs | 2hrs | 2hrs |
+| Debugging | H | 2hrs | 1hr | 1hr |
+| Code Organization for Readability | H | 2hrs | 1hr | 1hr
+| Image-Sizing | H | 2hrs | .5hr | .5hr |
+| Total | H | 34hrs | 24hrs | 24hrs |
 
 ## Code Snippet
 
+This for-loop automatically runs through the available data and appends the proper 
+network name, image and headline to the page. Everytime theres a new article out, and someone
+uses the page, new data is automatically appended to the page.
+
+```
+for (let i = 0; i < 5; i++){
+      const leftPotusSec = document.querySelector("#left-potus")
+      let left = leftPotus.data.articles
+      const h2 = document.createElement('h2')
+      const p = document.createElement('p')
+      const img = document.createElement('img')
+      const a = document.createElement('a')
+      const article = document.createElement('article')
+      img.src = left[i].urlToImage
+      let network = left[i].source.name
+      let title = left[i].title
+      a.href = left[i].url
+      a.textContent = "Click here to read the full article"
+      a.target = "_blank"
+      h2.textContent = network
+      p.textContent = title
+      article.append(h2)
+      article.append(img)
+      article.append(p)
+      article.append(a)
+      leftPotusSec.append(article)
+      a.textContent = "Click here to read the full article"
+      a.target = "_blank"
+      p.textContent = title
+        }
+```
 
 
 ## Change Log

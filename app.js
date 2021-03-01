@@ -1,5 +1,3 @@
-// const { default: axios } = require("axios")
-
 // Main variables and endpoints here.
 
 const leftPotusURL = 'https://newsapi.org/v2/everything?qInTitle=Biden&domains=cnn.com,nbcnews.com,washingtonpost.com&sortBy=publishedAt&language=en&apiKey=eaf83656ce23489da880c35a9d5055ad'

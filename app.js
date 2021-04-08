@@ -1,17 +1,17 @@
 // Main variables and endpoints here.
 
-const leftPotusURL = 'http://newsapi.org/v2/everything?qInTitle=Biden&domains=cnn.com,nbcnews.com,washingtonpost.com&sortBy=publishedAt&language=en&apiKey=eaf83656ce23489da880c35a9d5055ad'
-const midPotusURL = 'http://newsapi.org/v2/everything?qInTitle=Biden&domains=apnews.com,pbs.org,npr.org&sortBy=publishedAt&language=en&apiKey=eaf83656ce23489da880c35a9d5055ad'
-const rightPotusURL = 'http://newsapi.org/v2/everything?qInTitle=Biden&domains=nypost.com,foxnews.com&sortBy=publishedAt&language=en&apiKey=eaf83656ce23489da880c35a9d5055ad'
-const leftHouseURL = 'http://newsapi.org/v2/everything?qInTitle=congress&domains=cnn.com,nbcnews.com,washingtonpost.com&sortBy=publishedAt&language=en&apiKey=eaf83656ce23489da880c35a9d5055ad'
-const midHouseURL = 'http://newsapi.org/v2/everything?qInTitle=congress&domains=apnews.com,pbs.org,npr.org&sortBy=publishedAt&language=en&apiKey=eaf83656ce23489da880c35a9d5055ad'
-const rightHouseURL = 'http://newsapi.org/v2/everything?qInTitle=congress&domains=nypost.com,foxnews.com&sortBy=publishedAt&language=en&apiKey=eaf83656ce23489da880c35a9d5055ad'
-const leftSenateURL = 'http://newsapi.org/v2/everything?qInTitle=senate&domains=cnn.com,nbcnews.com,washingtonpost.com&sortBy=publishedAt&language=en&apiKey=eaf83656ce23489da880c35a9d5055ad'
-const midSenateURL = 'http://newsapi.org/v2/everything?qInTitle=senate&domains=apnews.com,pbs.org,npr.org&sortBy=publishedAt&language=en&apiKey=eaf83656ce23489da880c35a9d5055ad'
-const rightSenateURL = 'http://newsapi.org/v2/everything?qInTitle=senate&domains=foxnews.com,nypost.com&sortBy=publishedAt&language=en&apiKey=eaf83656ce23489da880c35a9d5055ad'
-const leftScotusURL = 'http://newsapi.org/v2/everything?qInTitle=supreme-court&domains=cnn.com,nbcnews.com,washingtonpost.com&sortBy=publishedAt&language=en&apiKey=eaf83656ce23489da880c35a9d5055ad'
-const midScotusURL = 'http://newsapi.org/v2/everything?qInTitle=supreme-court&domains=apnews.com,pbs.org,npr.org&sortBy=publishedAt&language=en&apiKey=eaf83656ce23489da880c35a9d5055ad'
-const rightScotusURL = 'http://newsapi.org/v2/everything?qInTitle=supreme-court&domains=foxnews.com,nypost.com&sortBy=publishedAt&language=en&apiKey=eaf83656ce23489da880c35a9d5055ad'
+const leftPotusURL = 'https://arcane-badlands-92920.herokuapp.com/https://newsapi.org/v2/everything?qInTitle=Biden&domains=cnn.com,nbcnews.com,washingtonpost.com&sortBy=publishedAt&language=en&apiKey=eaf83656ce23489da880c35a9d5055ad'
+const midPotusURL = 'https://arcane-badlands-92920.herokuapp.com/https://newsapi.org/v2/everything?qInTitle=Biden&domains=apnews.com,pbs.org,npr.org&sortBy=publishedAt&language=en&apiKey=eaf83656ce23489da880c35a9d5055ad'
+const rightPotusURL = 'https://arcane-badlands-92920.herokuapp.com/https://newsapi.org/v2/everything?qInTitle=Biden&domains=nypost.com,foxnews.com&sortBy=publishedAt&language=en&apiKey=eaf83656ce23489da880c35a9d5055ad'
+const leftHouseURL = 'https://arcane-badlands-92920.herokuapp.com/https://newsapi.org/v2/everything?qInTitle=congress&domains=cnn.com,nbcnews.com,washingtonpost.com&sortBy=publishedAt&language=en&apiKey=eaf83656ce23489da880c35a9d5055ad'
+const midHouseURL = 'https://arcane-badlands-92920.herokuapp.com/https://newsapi.org/v2/everything?qInTitle=congress&domains=apnews.com,pbs.org,npr.org&sortBy=publishedAt&language=en&apiKey=eaf83656ce23489da880c35a9d5055ad'
+const rightHouseURL = 'https://arcane-badlands-92920.herokuapp.com/https://newsapi.org/v2/everything?qInTitle=congress&domains=nypost.com,foxnews.com&sortBy=publishedAt&language=en&apiKey=eaf83656ce23489da880c35a9d5055ad'
+const leftSenateURL = 'https://arcane-badlands-92920.herokuapp.com/https://newsapi.org/v2/everything?qInTitle=senate&domains=cnn.com,nbcnews.com,washingtonpost.com&sortBy=publishedAt&language=en&apiKey=eaf83656ce23489da880c35a9d5055ad'
+const midSenateURL = 'https://arcane-badlands-92920.herokuapp.com/https://newsapi.org/v2/everything?qInTitle=senate&domains=apnews.com,pbs.org,npr.org&sortBy=publishedAt&language=en&apiKey=eaf83656ce23489da880c35a9d5055ad'
+const rightSenateURL = 'https://arcane-badlands-92920.herokuapp.com/https://newsapi.org/v2/everything?qInTitle=senate&domains=foxnews.com,nypost.com&sortBy=publishedAt&language=en&apiKey=eaf83656ce23489da880c35a9d5055ad'
+const leftScotusURL = 'https://arcane-badlands-92920.herokuapp.com/https://newsapi.org/v2/everything?qInTitle=supreme-court&domains=cnn.com,nbcnews.com,washingtonpost.com&sortBy=publishedAt&language=en&apiKey=eaf83656ce23489da880c35a9d5055ad'
+const midScotusURL = 'https://arcane-badlands-92920.herokuapp.com/https://newsapi.org/v2/everything?qInTitle=supreme-court&domains=apnews.com,pbs.org,npr.org&sortBy=publishedAt&language=en&apiKey=eaf83656ce23489da880c35a9d5055ad'
+const rightScotusURL = 'https://arcane-badlands-92920.herokuapp.com/https://newsapi.org/v2/everything?qInTitle=supreme-court&domains=foxnews.com,nypost.com&sortBy=publishedAt&language=en&apiKey=eaf83656ce23489da880c35a9d5055ad'
 
 
 

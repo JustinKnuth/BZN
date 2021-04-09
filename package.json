@@ -1,12 +1,28 @@
 {
   "dependencies": {
     "axios": "^0.21.1",
-    "newsapi": "^2.4.1"
+    "newsapi": "^2.4.1",
+    "react": "^17.0.2"
   },
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
-  }
+  },
+  "name": "BZN",
+  "description": "## Buffer Zone News Aggregator",
+  "version": "1.0.0",
+  "main": "app.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/JustinKnuth/BZN.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/JustinKnuth/BZN/issues"
+  },
+  "homepage": "https://github.com/JustinKnuth/BZN#readme"
 }

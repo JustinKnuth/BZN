@@ -3,6 +3,7 @@
 ## Buffer Zone News Aggregator
 
 #### URL - https://justinknuth.github.io/BZN/
+            (The website only works on safari, due to CORS issues with Chrome involving proxies)
 
 ## Project Description
 

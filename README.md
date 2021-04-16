@@ -2,7 +2,7 @@
 
 ## Buffer Zone News Aggregator
 
-#### URL - 
+#### URL - https://justinknuth.github.io/BZN/
 
 ## Project Description
 
